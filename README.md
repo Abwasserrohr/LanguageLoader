@@ -51,5 +51,6 @@ dependencies {
 	    <groupId>com.github.Abwasserrohr</groupId>
 	    <artifactId>LanguageLoader</artifactId>
 	    <version>main-SNAPSHOT</version>
+	    <scope>provided</scope>
 	</dependency>
 ```
