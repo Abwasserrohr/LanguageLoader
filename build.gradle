@@ -34,12 +34,13 @@ repositories {
     maven { url "https://repo.maven.apache.org/maven2" }
     maven { url "https://repo.aikar.co/nexus/content/repositories/aikar-release" }
     maven { url "https://repo.maven.apache.org/maven2" }
-    maven { url = 'https://libraries.minecraft.net/' }
+    maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
 }
 
 
 dependencies {
-    compileOnly files('libs/spigot.jar')
+    compileOnly 'org.spigotmc:spigot-api:1.17-R0.1-SNAPSHOT'
     compileOnly 'org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.2'
     compileOnly("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
     testCompile 'junit:junit:4.11'
