@@ -1,0 +1,4 @@
+
+# Define which packs should be loaded, "all" means loading all packs.
+loadpacks:
+  - "all"
