@@ -12,11 +12,13 @@ class LanguageLoader: JavaPlugin() {
         lateinit var container: LanguageContainer
         lateinit var pluginFolder: File
         val packs: ArrayList<String> = arrayListOf()
+        var onlyLocal = false
     }
 
     override fun onEnable() {
         saveDefaultConfig()
 
+        onlyLocal = config.getBoolean("localload")
         packs.addAll(config.getStringList("loadpacks"))
 
         pluginFolder = dataFolder

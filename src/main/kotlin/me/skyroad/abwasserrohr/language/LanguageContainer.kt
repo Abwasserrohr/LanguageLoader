@@ -2,6 +2,7 @@ package me.skyroad.abwasserrohr.language
 
 import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
+import kotlinx.serialization.json.encodeToJsonElement
 import me.skyroad.abwasserrohr.LanguageLoader
 import org.bukkit.ChatColor
 import org.yaml.snakeyaml.Yaml
@@ -70,6 +71,9 @@ class LanguageContainer {
     }
 
     private fun loadText(url: URL): String {
+        if (LanguageLoader.onlyLocal) {
+            return File("${LanguageLoader.pluginFolder}/packs/${url.file.split("/").last()}").readText(Charsets.UTF_8)
+        }
         return try {
             val text = url.readText(Charsets.UTF_8)
             File("${LanguageLoader.pluginFolder}/packs/").mkdirs()
