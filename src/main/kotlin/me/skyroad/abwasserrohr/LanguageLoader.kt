@@ -26,6 +26,5 @@ class LanguageLoader: JavaPlugin() {
     }
 
     override fun onDisable() {
-
     }
 }
