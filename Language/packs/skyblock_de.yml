@@ -1,0 +1,1241 @@
+#
+# > SKYBLOCK.SK LANGUAGE": DE "German
+# > COMPATIBLE VERSION": x (there is no release yet)
+#
+
+  #
+  # > The name of the language in it's own language.
+"language": "Deutsch"
+  
+  #
+  # > Encrypted language flag picture file, just leave it alone. =)
+"languageskin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU3ODk5YjQ4MDY4NTg2OTdlMjgzZjA4NGQ5MTczZmU0ODc4ODY0NTM3NzQ2MjZiMjRiZDhjZmVjYzc3YjNmIn19fQ=="
+  
+  #
+  # > Translation for "languages"
+"languages": "Sprachen"
+  #
+  # > Language change menu messsage": Your language has been changed.
+"changedlang": "Deine Sprache wurde geändert."
+
+  #
+  # > Translation for the currency name of the server. Use "Coins" or something similar in your the specific language.
+"currencyname": "Taler"
+
+  #
+  # > Join / quit message
+"joinmessage": "<s1><player> ist dem Server beigetreten."
+"quitmessage": "<s1><player> hat den Server verlassen."
+
+  #
+  # > Command feedback messages
+  #
+  # > /island create message once a new island is going to be created.
+"searchis": "<p2>Freie Inseln werden gesucht."
+  #
+  # > Message once a new island has been created for the player.
+"foundis": "<p1>Deine neue Insel wurde erstellt."
+  #
+  # > Islands
+"islands": "<s1><l>Inseln"
+  #
+  # > Island creation menu, this appears in a hover effect of the island menu. Click here to create this island for you.
+"clicktocreateisland": "<s1>Klicke hier, damit <nl><s1>diese Insel für dich<nl><s1>erstellt wird."
+
+  #
+  # > /island go message that the player has been teleported to his island.
+"tpis": "<p1>Du wurdest zur Insel teleportiert."
+  #
+  # > /island home message that the player has been teleported to his home.
+"tphome": "<p1>Du wurdest zum Zuhause teleportiert."
+  #
+  # > /island home message that the home of the player in in the air.
+"homewarnair": "<w1>Warnung, dein Zuhause ist in der Luft!"
+  #
+  # > /island delete message that the island has been deleted.
+"deledtedis": "<w1><l>Deine Insel wurde gelöscht."
+  #
+  # > /island create message that the player is already on an island.
+"alreadyis": "<s1>Du bist bereits auf einer Insel."
+  #
+  # > /island invite message that the player is already on an island.
+"alreadyotheris": "<s1><player> ist bereits auf einer Insel."
+  #
+  # > Please wait a moment...
+"waitis": "<p2><l>Bitte warte einen Augenblick..."
+  #
+  # > /island leave message which tells the player that this island can't be left.
+"cantleave": "<s1>Du kannst diese Insel nicht verlassen."
+  #
+  # > /island home message which lists all homes. <homes> is a list of all homes.
+"notfoundhome": "<s1>Deine Zuhause: <homes>"
+  
+  #
+  # > /island invite message which tells that a invitation has been sent.
+"sentrequest": "<p2>Du hast eine Anfrage geschickt."
+  #
+  # > /island invite message that tells the invited player who invited.
+"gotrequest": "<p2>Du hast eine Inseleinladung von <player> erhalten."
+  #
+  # > /island invite error
+"reqtoleader": "<s1>Die Einladung wurde <u>nicht<s1> angenommen."
+  #
+  # > A clickable message which allows the player to join to an island.
+"clicktojoin": "Klicke Hier, um <player> beizutreten."
+  #
+  # > A /island invite message which tells the player that the invitation has timed out.
+"reqtomember": "<s1>Die Einladung ist <l>abgelaufen<s1>."
+  #
+  # > A /island invite error message which tells the player that you can't invite yourself.
+"cantinviteself": "<w1>Du kannst dich nicht selber einladen."
+  #
+  # > A /island invite message which tells the invited player that he joined the island of <arg-2>.
+"joinedismember": "<p2>Du bist der Insel von <arg-2> beigetreten."
+  #
+  # > A /island invite message which tells the island owner that <player> has joined the island.
+"joinedisleader": "<p2><player> ist der Insel beigetreten."
+  #
+  # > Tells the invted player that there is no invitation available.
+"norequest": "<s1>Keine Einladungen verfügbar."
+  #
+  # > A /island join message which tells the player to which island the player has been invited, just "Invitations:"
+"requests": "<s1>Einladungen:"
+  #
+  # > A /island invite error message, which tells the player that there couldn't be a message sent to the player <arg-2>.
+"invitetargeterror": "<s1>Es konnte keine Einladung an <arg-2> gesendet werden."
+  
+  #
+  # > A /island leave message which tells the player that the player left an island.
+"leftis": "<s1>Du hast die Insel verlassen."
+
+  #
+  # > A /island kick message which tells that the player <arg-2> has been kicked from the island.
+"kickmemberleader": "<s1>Du hast <arg-2> von der Insel gekickt."
+  #
+  # > A /island kick message which tells the kicked player that he got kicked from the island.
+"kickmember": "<s1>Du wurdest von der Insel von <player> gekickt."
+  
+  #
+  # > /island sethome message that is sent when the command was successfull. 
+"sethomeok": "Zuhause erfolgreich erstellt."
+  #
+  # > /island sethome error message which is used if the player tries to set a home outside of the own island.
+"ishomecancel": "Das neue Zuhause muss auf deiner Insel sein."
+  #
+  # > /island sethome message which is used if a home has been overwritten.
+"sethomeoverwritten": "Zuhause erfolgreich überschrieben."
+  #
+  # > /island delete message which is used once a player removed the home with the name <home>.
+"homedeleted": "Zuhause <home> wurde entfernt."
+  #
+  # > /island delete error message which tells the player that the home with the name <home> can't be deleted.
+"cantdeletehome": "<home> kann nicht entfernt werden."
+  #
+  # > /island sethome error message that tells that the player has reched the home creation limit.
+"sethomelmitreached": "Du hast das Limit für noch mehr Zuhause erreicht."
+
+  #
+  # > /island reload message that tells that SKYBLOCK.SK is reloading.
+"reloadstarted": "<s1>Lade SKYBLOCK.SK neu..."
+  #
+  # > /island reload success message which tells that SKYBLOCK.SK has been reloaded successfully.
+"reloadsuccess": "<s1>SKYBLOCK.SK wurde erfolgreich neugeladen."
+
+  #
+  # > /island warp|setwarp|delwarp
+  #
+  # > /island warp success message which tells that the warp has been created successfully.
+"setwarpok": "Der Warp wurde erfolgreich erstellt."
+  #
+  # > /island delwarp success message which tells that the warp has been deleted successfully.
+"delwarpok": "Der Warp wurde erfolgreich gelöscht."
+  #
+  # > /island warp error message which tells that this warp has not been found.
+"warpnotfound": "Dieser Warp wurde nicht gefunden."
+
+  #
+  # > The leader of the island.
+"isleader": "Inselleiter:"
+  #
+  # > The members of the island.
+"ismember": "Mitglieder:"
+  #
+  # > Players who are trusted on this island.
+"istrusted": "Vertraute:"
+  #
+  # > The island level of the island.
+"isinfolevel": "Level:"
+  #
+  # > The biome of the island.
+"isinfobiome": "Biom:"
+  #
+  # > The creation date of the island.
+"iscreated": "Erstellt:"
+  #
+  # > The date of the last active day.
+"islastactive": "Zuletzt aktiv:"
+  #
+  # > Island upgrades.
+"isupgrades": "Inselverbesserungen:"
+  #
+  # > Island could not be found.
+"isinfonotfound": Insel konnte nicht gefunden werden.
+  #
+  # > Active hoppers.
+"activehoppers": "Aktive Trichter:"
+  #
+  # > Active entities.
+"activeentites": "Aktive Wesen:"
+  #
+  # > Active entities on this island.
+"info_activentitiestitle": "Aktive Wesen der Insel"
+  #
+  # > A list which tells the player to click on it to get a list of all active entities of this island.
+"info_activentitieslore": "<s1>Klicke Hier, um eine<nl><s1>genaue Liste aller gerade<nl><s1>aktiven Wesen der<nl><s1>Insel zu erhalten."
+
+  #
+  # > /island trust message which shows all trusted players.
+"trustplayerlist": "Alle vertrauten Spieler:"
+  #
+  # > /island trust error message which tells that this player is already trusted.
+"alreadytrusted": "Diesem Spieler wird schon vertraut."
+  #
+  # > /island trust success message that tells that <player> is now trusted.
+"trustnowtrusted": "<player> wird nun vertraut."
+  #
+  # > /island trust error message which says that the player doesn't exist(not found).
+"notfoundplayer": "Der Spieler wurde nicht gefunden."
+  #
+  # > /island trust success message which says that the player is no longer trusted.
+"trustremoved": "<player> wird nicht länger vertraut."
+
+  #
+  # > /island help header with formatting.
+"help-header": "<l>> <p1><l>Hilfe"
+  #
+  # > Title for: Create a island.
+"help-title-iscreate": "<p1>Insel erstellen"
+  #
+  # > Description for: Create a island
+"help-desc-iscreate": "<s1>Erstellt eine Insel"
+  #
+  # > Command example for: Create a island. Replace /island (/is) with a local word for it, if possible. Also on others which follow.
+"help-cmd-iscreate": "/is create"
+  #
+  # > Title for: Delete island.
+"help-title-isdelete": "<p1>Insel löschen"
+  #
+  # > Description for: Delete island.
+"help-desc-isdelete": "<s1>Löscht deine Insel"
+  #
+  # Command example for: Delete island.
+"help-cmd-isdelete": "/is delete"
+  #
+  # > Title for: Teleport to home.
+"help-title-isteleport": "<p1>Teleport nachhause"
+  #
+  # > Description for: Teleport to home.
+"help-desc-isteleport": "<s1>Teleportiert dich<nl><s1>zum Zuhause der Insel"
+  #
+  # > Command example for: Teleport to home.
+"help-cmd-isteleport": "/is home [<Name>]"
+  #
+  # > Title for: Set a home.
+"help-title-issethome": "<p1>Zuhause setzen"
+  #
+  # > Description for: Set a home at your current location.
+"help-desc-issethome": "<s1>Setzt ein Zuhause an<nl><s1>dem aktuellen Standort."
+  #
+  # > Command example for: Set a home.
+"help-cmd-issethome": "/is sethome [<Name>]"
+  #
+  # > Title for: Teleport to bedrock
+"help-title-isteleportgo": "<p1>Zum Grundstein"
+  #
+  # > Description for: Teleport to bedrock.
+"help-desc-isteleportgo": "<s1>Teleportiert dich zum<nl><s1>Grundstein deiner Insel."
+  #
+  # > Command example for: Teleport to bedrock.
+"help-cmd-isteleportgo": "/is go"
+  #
+  # > Title for: Island level
+"help-title-islevel": "<p1>Insel Level"
+  #
+  # > Description for: Get the current island level.
+"help-desc-islevel": "<s1>Zeigt dein aktuelles Insellevel an."
+  #
+  # > Command example for: Island level.
+"help-cmd-islevel": "/is level"
+  #
+  # > Title for: Toplist.
+"help-title-istop": "<p1>Bestenliste"
+  #
+  # > Description for: Shows the current toplist to you, on which the islands with the best islands are shown.
+"help-desc-istop": "<s1>Zeigt eine Bestenliste an,<nl><s1>auf der die besten Inseln<nl><s1>angezeigt werden."
+  #
+  # > Command example for: Toplist.
+"help-cmd-istop": "/is top"
+  #
+  # > Title for: Invite a player.
+"help-title-isinvite": "<p1>Spieler einladen"
+  #
+  # > Description for: Invite a player to your island.
+"help-desc-isinvite": "<s1>Lädt einen Spieler auf deine Insel ein."
+  #
+  # > Command example for: Invite a player.
+"help-cmd-isinvite": "/is invite <Spieler>"
+  #
+  # > Title for: Kick a player.
+"help-title-iskick": "<p1>Spieler rauswerfen"
+  #
+  # > Description for: Kick a player from your island.
+"help-desc-iskick": "<s1>Wirft einen Spieler von deiner Insel."
+  #
+  # > Command example for: Kicck a player.
+"help-cmd-iskick": "/is kick <Spieler>"
+  #
+  # > Title for: Accept invitation.
+"help-title-isjoin": "<p1>Einladung annehmen"
+  #
+  # > Description for: Accept invitation.
+"help-desc-isjoin": "<s1>Nimmt eine Einladung an.
+  #
+  # > Command example for: Accept invitation.
+"help-cmd-isjoin": "/is join "
+  #
+  # > Title for: Leave island.
+"help-title-isleave": "<p1>Insel verlassen"
+  #
+  # > Description for: Leave the island on which you are currently a member.
+"help-desc-isleave": "<s1>Verlässt eine Insel auf der<nl><s1>du gerade Mitglied bist."
+  #
+  # > Command example for: Leave island.
+"help-cmd-isleave": "/is leave"
+  #
+  # > Title for: SkyBlock menu.
+"help-title-isgui": "<p1>SkyBlock Menü"
+  #
+  # > Description for: SkyBlock menu, where the player can access almost all important commands and function through this menu.
+"help-desc-isgui": "<s1>Öffnet das SkyBlock Menü,<nl><s1>von hier kannst du fast alle<nl><s1>wichtigen Befehle über ein<nl><s1>Menü erreichen."
+  #
+  # > Command example for: SkyBlock menu.
+"help-cmd-isgui": "/is"
+  #
+  # > Title for: Teleport to server lobby
+"help-title-isspawn": "<p1>Server Lobby"
+  #
+  # > Description for Teleport to server lobby.
+"help-desc-isspawn": "<s1>Teleportiert dich zur Lobby des Servers"
+  #
+  # > Command example for: Teleport to server lobby.
+"help-cmd-isspawn": "/is spawn"
+  #
+  # > Title for: Ore generator chances.
+"help-title-isore": "<p1>Erzgenerator Chancen"
+  #
+  # > Description for: Ore generator chances, shows you the ore chances you have, with you current ore generator.
+"help-desc-isore": "<s1>Zeigt dir die Chancen auf<nl><s1>die Erze an, die du mit<nl><s1>dem Erzgenerator derzeit hast."
+  #
+  # > Command example for: Ore generator chances.
+"help-cmd-isore": "/is ore"
+  #
+  # > Title for: Ore generator status.
+"help-title-isgen": "<p1>Erzgenerator Status"
+  #
+  # > Description for: Ore generator status, which shows the current ore generator chances to the player.
+"help-desc-isgen": "<s1>Zeigt dir den aktuellen<nl><s1>Status deines Erzgenerators an."
+  #
+  # > Command example for: Ore generator status.
+"help-cmd-isgen": "/is gen"
+  #
+  # > Title for: Trust a player.
+"help-title-trustadd": "<p1>Spielern vertrauen"
+  #
+  # > Description for: Trust a player, trusted players have a sepatated flag group. "Flags" are special settings which can be set to the island.
+"help-desc-trustadd": "<s1>Vertraue einem Spieler,<nl><s1>für vertraute Spieler können<nl><s1>eigene Flaggruppen erstellt werden."
+  #
+  # > Command example for: Trust a player.
+"help-cmd-trustadd": "/is trust add <Spieler>"
+  #
+  # > Title for: Untrust a player.
+"help-title-trustremove": "<p1>Entferne vertrauten Spieler"
+  #
+  # > Description for: Untrust a player.
+"help-desc-trustremove": "<s1>Traue dem Spieler nicht länger."
+  #
+  # > Command example for: Untrust a player.
+"help-cmd-trustremove": "/is trust remove <Spieler>"
+  #
+  # > Title for: Change flags. "Flags" are special settings which can be set to the island.
+"help-title-flaglist": "<p1>Flags ändern"
+  #
+  # > Description for: Change flags, opens a menu in which flags can be changed for the island.
+"help-desc-flaglist": "<s1>Öffnet ein Menü in dem<nl><s1>die Flags für die Insel<nl><s1>geändert werden können."
+  #
+  # > Command example for: Change flags menu.
+"help-cmd-flaglist": "/is flags"
+  #
+  # > Title for: Island warp.
+"help-title-helpwarp": "<p1>Inselwarps"
+  #
+  # > Description for: Island warp, teleports the player to a defined warp of another player.
+"help-desc-helpwarp": "<s1>Teleportiert dich zu<nl><s1>einem Warp des definierten<nl><s1>Spielers."
+  #
+  # > Command example for: Island warp.
+"help-cmd-helpwarp": "/is warp <Spieler>"
+  #
+  # > Title for: Set a warp.
+"help-title-helpsetwarp": "<p1>Inselwarp setzen"
+  #
+  # > Description for: Set a warp, which is going to be at the current location. Once set, everyone can visit.
+"help-desc-helpsetwarp": "<s1>Setzt einen Inselwarp<nl><s1>an deinem aktuellen Standort.<nl><s1>Daraufhin kann dich jeder besuchen."
+  #
+  # > Command example for: Set a warp.
+"help-cmd-helpsetwarp": "/is setwarp"
+  #
+  # > Title for: Delete a warp.
+"help-title-helpdelwarp": "<p1>Inselwarp löschen"
+  #
+  # > Description for: Delete a warp, deletes the warp, once deleted, nobody can visit the island anymore using a warp.
+"help-desc-helpdelwarp": "<s1>Löscht deinen Inselwarp,<nl><s1>daraufhin kann dich niemand mehr<nl><s1>über deinen Inselwarp besuchen."
+  #
+  # > Command example for: Delete a warp.
+"help-cmd-helpdelwarp": "/is delwarp"
+
+  #
+  # > /island "Error messages.
+  #
+  # > If the the command is only usable by the island owner (leader), send this message.
+"notallowed": "<w1>Der Befehl ist dem Inselbesitzer vorbehalten."
+  #
+  # > Message": You're not the island owner (leader).
+"notleader": "<w1>Du bist nicht der Inselbesitzer."
+  #
+  # > Message": You're not the island leader of this island.
+"notleaderofthisisland": "<w1>Du bist nicht der Inselbesitzer dieser Insel."
+  #
+  # > Message": You don't have enough permissions for this command.
+"noperm": "<w1><l>Du besitzt keine Berechtigung für diesen Befehl."
+  #
+  # > Message": Use /island delete to delete your island.
+"leaderleaveinfo": "<s1>Verwende /is delete, um deine Insel zu löschen."
+  #
+  # > Message": You don't have an island. Create one using /islannd create.
+"nois": "<w1>Du hast keine Insel. Erstelle eine: &4<l>/island create"
+  #
+  # > Message": This player is offline.
+"playeroff": "<s1>Dieser Spieler ist offline."
+  #
+  # > Message": Use /island leave to leave the island.
+"havetoleave": "<s1>Verwende /is leave, um die Insel zu verlassen."
+  #
+  # > Cooldown message": This command is recharging.
+"cooldown": "<s1>Dieser Befehl lädt noch auf."
+  #
+  # > <player> (placeholder) could not be found.
+"plnotfound": "<s1><player> konnte nicht gefunden werden."
+  #
+  # > Error message": Please use numbers and not text.
+"notanumber": "<w1>Bitte verwende Nummern und keinen Text."
+  #
+  # > Error message": This page doesn't exist. There are only <pages> (placeholder) pages.
+"pagenotfound": "<w1>Diese Seite exestiert nicht. Es gibt nur <pages> Seiten."
+
+  #
+  # > /island top
+  #
+  # > The format of the toplist, keep it that way. In some languages, it may make sense to change the default configuration.
+"istoplist": "<s1><l><rank><b1> | <b1><name>"
+  #
+  # > The format of the hover effect of toplist book entries. Do not change the placeholder names, which are within <name>. But you can rearrange them.
+"toplistbookhover": "<name><nl1><guispacer><nl1>&r<s1>Rang: <rank><nl1>Insellevel: <level><nl1>Erfahrung durch<nl1>Herausforderungen: <challengexp><nl1>Besucher: <visitors><nl1><guispacer>"
+  #
+  # > Text": Sorted.
+"islandtoplist_sortby": "Sortierung: "
+  #
+  # > One character or symbol which represents "Sorted by island level" the best.
+"islandtoplist_island": "[L]"
+  #
+  # > One character or symbol which represents "Sorted by challenge experience" the best.
+
+"islandtoplist_challenge": " [C] "
+  #
+  # > One character or symbol which represents "Sorted by island visitors" the best.
+"islandtoplist_visitors": "[B]"
+  #
+  # > A hover text which is shown if the player hovers over the "Sorted by island level" character or symbol.
+"islandtoplist_island_hover": "Sortierung nach Insellevel<nl1><s1>Zeigt die Bestenliste<nl1>sortiert nach dem<nl1>Insellevel an."
+  #
+  # > A hover text which is shown if the player hovers over the "Sorted by challenge experience" character or symbol.
+"islandtoplist_challenge_hover": "Sortierung nach Herausforderungen<nl1><s1>Zeigt die Bestenliste<nl1>sortiert nach der<nl1>Herausforderungserfahrung an."
+  #
+  # > A hover text which is shown if the player hovers over the "Sorted by island visitors" character or symbol.
+"islandtoplist_visitors_hover": "Sortierung nach Besuchern<nl1><s1>Zeigt die Bestenliste<nl1>sortiert nach den<nl1>Besuchern an."
+
+  #
+  # > /isadmin "command feedback
+  #
+  # > Success message": <amount> (placeholder) islands have been deleted.
+"isadmin_deletedxis": "<amount> Inseln wurden gelöscht."
+  #
+  # > Warn message": <amount> (placeholder) islands would be deleted, do you want to delete?
+"isadmin_xwouldbedeleted": "<amount> Insel würden gelöscht werden, möchtest du löschen?"
+  #
+  # > Warn message": Are you sure to delete <amount> islands?
+"isadmin_areyousuretodelete": "Bist du sicher, <amount> Insel zu löschen?"
+  #
+  # > Text": Yes.
+"isadmin_yes": "<p1><l>Yes."
+  #
+  # > Warn message": Are you sure to delete the island of the player <player> (placeholder)?
+"isadmin_suretodeleteisofp": "Bist du sicher, dass die Insel von <player> gelöscht werden soll?"
+  #
+  # > Success message": Everyone has been kicked from this island.
+"isadmin_kickall": "Jeder wurde von dieser Insel gekickt."
+  #
+  # > Warn message": Do you want to kick everyone from <player>'s (placeholder) island?
+"isadmin_kickallprompt": "Möchtest du alle von <player> Insel kicken?"
+  #
+  # > Success message": The island of <player> (placeholder) has been deleted.
+"isadmin_islandofdeleted": "Die Insel von <player> wurde gelöscht."
+  #
+  # > Error message": The new island owner (leader) has to be a island member first.
+"isadmin_newleaderhastobemember": "Der neue Inselleiter muss Inselmitglied sein."
+  #
+  # > Success message": <newleader>(placeholder) is now the new island owner (leader), <oldleader> (placeholder) is now a member of the island.
+"isadmin_newleader": "<newleader> ist nun der neue Leiter, <oldleader> ist nun Mitglied der Insel."
+  #
+  # > Warn message": Do you want to change the island owner (leader) from <oldleader> (placeholder) to <newleader> (placeholder)?
+"isadmin_changeleader": ""Möchtest du den Inselleiter von <oldleader> zu <newleader> wechseln?"
+  #
+  # > Success message": The island level is now calculated.
+"isadmin_fcalc": "Das Insellevel wird nun berechnet."
+  #
+  # > Success message": The island are going to be deleted after a restart.
+"isadmin_isremovedonrestart": "Die Inseln werden nach einem Neustart gelöscht."
+  #
+  # > Success message": Successfully deducted <amount> challenge experience from <player>.
+"admincmd_removedchallengexp": "<s1><player> wurde <amount> Herausforderungserfahrung abgezogen."
+  #
+  # > Success message": Successfully added <amount> challenge experience to <player>.
+"admincmd_addedchallengexp": "<s1><player> wurde <amount> Herausforderungserfahrung hinzugefügt."
+
+  #
+  # > Error message": This area is protected.
+"protect": "Dieses Gebiet ist gesichert."
+  #
+  # > Kick message": The server is restarting. Please wait a moment.
+"clearkick": "Der Server startet neu. Warte einen Moment."
+  #
+  # > Error message": Player vs player is not possible here.
+"nopvp": "<w1>Spieler gegen Spieler ist hier nicht möglich."
+  
+  #
+  # > GUI title": SkyBlock
+"guigrassname": "<p1><l>Skyblock"
+  #
+  # > GUI title": Start a new island
+"guigraslore": "&9<l>Starte eine Insel"
+  #
+  # > GUI title": Island information
+"guiexpname": "&9<l>Inselinformationen"
+  #
+  # > GUI title": Challenges
+"guichallangename": "<p1><l>Herausforderungen"
+  #
+  # > GUI title": Toplist
+"guitopname": "<p1><l>Bestenliste"
+  #
+  # > GUI title": Lootcrates
+"guirewardsname": "&d<l>Lootboxen"
+  #
+  # > GUI title": Lobby
+"guihubname": "<p1><l>Lobby"
+  #
+  # > GUI item title": Back
+"guibacktopreviousmenu": "&rZurück"
+
+
+  #
+  # > GUI subtext (lore)": Teleports you to your island.
+"maingui_guigrasslore": "<s1>Teleportiere dich<nl><s1>zu deiner Insel."
+  #
+  # > GUI subtext (lore)": Creattes a new island for you.
+"maingui_guigrasscreatelore": "<s1>Erstelle eine neue<nl><s1>Insel für dich."
+  #
+  # > GUI subtext (lore)": Shows you information about your island.
+"maingui_guiislandinfo": "<s1>Zeige Informationen<nl><s1>über deine Insel an."
+  #
+  # > GUI subtext (lore)": Opens the challenge menu to view your current challenges.
+"maingui_guichallangelore": "<s1>Öffne das das Herausforderungs-<nl><s1>menü, um Herausforderungen zu sehen."
+  #
+  # > GUI subtext (lore)": Shows you the current toplist of all islands.
+"maingui_guitoplore": "<s1>Zeigt dir die aktuelle<nl><s1>Bestenliste aller<nl><s1>Inseln an."
+  #
+  # > GUI subtext (lore)": Get valuable rewards for your island.
+"maingui_guirewardslore": "<s1>Hole dir wertvolle Belohnungen<nl><s1>für deine Insel ab."
+  #
+  # > GUI subtext (lore)": Teleports you to the lobby.
+"maingui_guihublore": "<s1>Teleportiert dich zur Lobby."
+  #
+  # > GUI subtext (lore)": Changes your language.
+"maingui_guilanglore": "<s1>Ändere deine Sprache."
+  #
+  # > GUI subtext (lore)": Change the flags of your island.
+"maingui_guiflaglore": "<s1>Ändere die Flags deiner Insel."
+  #
+  # > GUI subtext (lore)": Upgrade your island.
+"maingui_islandupgradelore": "<s1>Erweitere deine Insel."
+  #
+  # > GUI subtext (lore)": Click here to get to the store.
+"maingui_storelore": "<s1>Klicke hier, um<nl><s1>zum Shop zu kommen."
+  #
+  # > GUI subtext (lore)": Moves you back to the previous menu.
+"guibacktopreviousmenulore": "<s1>Bringt dich zurück<nl><s1>zum vorherigen Menü."
+
+  #
+  # > Chat message prefix. This is added to almost all messages.
+"prefix": "<s1>[<p1><l>SkyBlock<s1>] <b1><l>>>&r"
+  #
+  # > Kick message": Old islands are currently being deleted, please wait.
+"delismsg": "<p2>Alte Inseln werden gerade gelöscht, bitte warte kurz."
+  #
+  # > Success message": The island on which you've been a member, has been deleted.
+"deletekickmember": "<s1>Die Insel, auf der du Mitglied warst, wurde gelöscht."
+  #
+  # > Error message": The nether is not accessable.
+"nonether": "<s1>Die Hölle ist nicht zugänglich."
+  #
+  # > Warn message": Do you want to delete your island? Click here
+"isdeleteqestion": "<s1>Du möchtest deine Insel löschen? <p1>Klicke Hier<s1>"
+  
+  #
+  # > Error message": There is already a bedrock or a island set. Kick everyone first and then create a new island.
+"at_isalreadyset": "<s1>Hier ist schon ein Grundstein oder eine Insel gesetzt. Kicke zuerst alle von dieser Insel und erstelle dann eine neue Insel."
+  #
+  # > Succcess message": The island is now set, add a island leader with /isadmin island addmember <new leader> (placeholder).
+"at_isnowset": "<s1>Die Insel wurde nun erstellt, füge einen neuen Inselbesitzer mit /isadmin island addmember <neuer Besitzer> hinzu."
+
+  #
+  # > Flags
+  
+  #
+  # > Flag titles
+  #
+  # > Island flag title": Explosions
+"flag_explosiont": "Explosionen"
+  #
+  # > Island flag title": Monster
+"flag_mob-spawningt": "Monster"
+  #
+  # > Island flag title": Monster
+"flag_bat-spawningt": "Fledermäuse"
+  #
+  # > Island flag title": Buttons & levers
+"flag_buttont": "&rKnöpfe & Hebel"
+  #
+  # > Island flag title": Doors
+"flag_doort": "&rTüren"
+  #
+  # > Island flag title": Monster damage
+"flag_mob-damaget": "&rMonsterschaden"
+  #
+  # > Island flag title": Animal damage
+"flag_animal-damaget": "&rTierschaden"
+  #
+  # > Island flag title": Vehicle interact
+"flag_interact-vehiclet": "&rVehikelzugang"
+  #
+  # > Island flag title": Public home
+"flag_publichomet": "&rÖffentliches Zuhause"
+  #
+  # > Island flag title": Build and break
+"flag_buildt": "&rBauen und abbauen"
+  #
+  # > Island flag title": Block inventorys
+"flag_chestt": "&rBlockinventare"
+  #
+  # > Island flag title": Entity access
+"flag_entityclickt": "&rEntity Zugang"
+  #
+  # > Island flag title": Redstone
+"flag_redstonet": "&rRedstone"
+  #
+  # > Island flag title": JetBoots (add-on name)
+"flag_jetbootst": "&rJetBoots"
+  #
+  # > Island flag title": Storage unit access
+"flag_storageunitt": "&rLagersystem Zugang"
+  #
+  # > Island flag title": Fire spread
+"flag_fire-spreadt": "&rFeuer Ausbreitung"
+  #
+  # > Island flag title": Elytra
+"flag_elytrat": "&rElytra"
+  #
+  # > Island flag title": Projectile throwing
+"flag_shoott": "&rProjektile werfen"
+  #
+  # > Island flag title": Drop items
+"flag_dropt": "&rItems fallen lassen"
+  #
+  # > Island flag title": Island access
+"flag_accesst": "&rInselzugang"
+  #
+  # > Island flag title": Player vs. player 
+"flag_pvpt": "&rSpieler gegen Spieler"
+  #
+  # > Island flag title": Slime spawning
+"flag_slime-spawningt": "Erscheinen von Schleim"
+  #
+  # > Island flag title": Trees with branches
+"flag_tree-branchest": "Verästelte Bäume"
+  #
+  # > Island flag title": Snow and ice smelting
+"flag_snow-ice-meltt": "Schnee"und Eisschmelze"
+  #
+  # > Island flag title": Flags
+"flag_flagst": "Flags"
+  #
+  # > Island flag title": General flags
+"flag_generalt": "Allgemeine Flags"
+  #
+  # > Island flag title": Flags for foreign players.
+"flag_foreignt": "Flags für Fremde"
+  #
+  # > Island flag title": Flags for trusted players.
+"flag_trustedt": "Flags für Vertraute"
+  #
+  # > Island flag title": Flags for members of the island.
+"flag_membert": "Flags für Mitglieder"
+
+  #
+  # > Flag descriptions
+  #
+  # > Island flag description": Allows explosions which can destroy blocks and entities on your island.
+"flag_explosiond": "<s1>Erlaubt zerstörerische<nl><s1>Explosionen an deiner<nl><s1>Insel."
+  #
+  # > Island flag description": Allows spawning monsters on your island.
+"flag_mob-spawningd": "<s1>Erlaubt das erscheinen<nl><s1>von Monstern auf<nl><s1>deiner Insel."
+  #
+  # > Island flag description": Allows spawning monsters on your island.
+"flag_bat-spawningd": "<s1>Erlaubt das erscheinen<nl><s1>von Fledermäusen auf<nl><s1>deiner Insel."
+  #
+  # > Island flag description": Allows to use buttons and levers on your island.
+"flag_buttond": "<s1>Erlaubt, die<nl><s1>Knöpfe und Hebel auf deiner Insel<nl><s1>zu verwenden."
+  #
+  # > Island flag description": Allows to use doors on your island.
+"flag_doord": "<s1>Erlaubt, die<nl><s1>Türen auf deiner Insel<nl><s1>zu verwenden."
+  #
+  # > Island flag description": Allows to hit the monsters on your island.
+"flag_mob-damaged": "<s1>Erlaubt, deine<nl><s1>Monster zu schlagen."
+  #
+  # > Island flag description": Allows to hit the animals on your island.
+"flag_animal-damaged": "<s1>Erlaubt, deine<nl><s1>Tiere zu schlagen."
+  #
+  # > Island flag description": Allows to destroy item frames on your island.
+"flag_itemframe-damaged": "<s1>Erlaubt,<nl><s1>deine Rahmen abzubauen."
+  #
+  # > Island flag description": Allows to use and interact with vehicles on your island.
+"flag_interact-vehicled": "<s1>Erlaubt,<nl><s1>Vehikel zu verwenden."
+  #
+  # > Island flag description": Allows others to visit your pre set homes. 
+"flag_publichomed": "<s1>Erlaubt anderen,<nl><s1>dein Zuhause zu besuchen."
+  #
+  # > Island flag description": Allows these players to build and break blocks on your island.
+"flag_buildd": "<s1>Erlaubt diesen Spielern,<nl><s1>auf deiner Insel zu bauen<nl><s1>und abzubauen."
+  #
+  # > Island flag description": Allows these players to access to inventories of blocks.
+"flag_chestd": "<s1>Erlaubt diesen Spielern,<nl><s1>auf deiner Insel in die<nl><s1>Inventare von<nl><s1>von Blöcken zu schauen."
+  #
+  # > Island flag description": Allows these players to access your entities.
+"flag_entityclickd": "<s1>Erlaubt diesen Spielern,<nl><s1>Entities anzuklicken."
+  #
+  # > Island flag description": Allows these players to change your redstone settings.
+"flag_redstoned": "<s1>Erlaubt diesen Spielern,<nl><s1>Redstone Einstellungen<nl><s1>zu ändern."
+  #
+  # > Island flag description": Allows these players to use the JetBoots.
+"flag_jetbootsd": "<s1>Erlaubt diesen Spielern,<nl><s1>JetBoots zu verwenden."
+  #
+  # > Island flag description": Allows these players to access to your storage units.
+"flag_storageunitd": "<s1>Erlaubt diesen Spielern,<nl><s1>auf das Lagersystem<nl><s1>zuzugreifen."
+  #
+  # > Island flag description": Allows the spread of fire on your island.
+"flag_fire-spreadd": "<s1>Erlaubt die Ausbreitung<nl><s1>von Feuer auf der Insel."
+  #
+  # > Island flag description": Allows these players to fly with the elytra.
+"flag_elytrad": "<s1>Erlaubt diesen Spielern,<nl><s1>mit Elytra zu fliegen."
+  #
+  # > Island flag description": Allows these players to throw projectiles on your island.
+"flag_shootd": "<s1>Erlaubt diesen Spielern,<nl><s1>Projektile auf deiner<nl><s1>Insel zu werfen."
+  #
+  # > Island flag description": Allows these players to drop items on your island.
+"flag_dropd": "<s1>Erlaubt diesen Spielern,<nl><s1>Items auf deiner<nl><s1>Insel fallen zu lassen."
+  #
+  # > Island flag description": Allows these players to access to your island.
+"flag_accessd": "<s1>Erlaubt diesen Spielern,<nl><s1>deine Insel zu betreten."
+  #
+  # > Island flag description": Allows player vs. player on your island.
+"flag_pvpd": "<s1>Erlaubt Spieler gegen<nl><s1>Spieler auf deiner Insel."
+  #
+  # > Island flag description": Allows spawning of slime on your island.
+"flag_slime-spawningd": "<s1>Erlaubt das erscheinen<nl><s1>von Schleim auf<nl><s1>deiner Insel."
+  #
+  # > Island flag description": Allows trees to grow with branches on your island.
+"flag_tree-branchesd": "<s1>Erlaubt verästelten Bäumen<nl><s1>auf deiner Insel zu wachsen."
+  #
+  # > Island flag description": Snow and ice melts on warm temperatures on your island.
+"flag_snow-ice-meltd": "<s1>Lässt Schnee und Eis bei<nl><s1>warmen Temperaturen<nl><s1>auf deiner Insel schmelzen."
+  #
+  # > Island flag description": Change general Settings here, which will take effect your whole island in general.
+"flag_generald": "<s1>Verändere hier Einstellungen,<nl><s1>die deine Insel allgemein<nl><s1>betreffen."
+  #
+  # > Island flag description": Allows foreign people to do certain tasks on your island. Change these settings here.
+"flag_foreignd": "<s1>Erlaube Fremden diverse<nl><s1>Aktionen auf deiner Insel<nl><s1>auszuführen, ändere<nl><s1>diese Einstellungen hier."
+  #
+  # > Island flag description": Allows trusted people to do certain tasks on your island. Change these settings here.
+"flag_trustedd": "<s1>Erlaube Vertrauten diverse<nl><s1>Aktionen auf deiner Insel<nl><s1>auszuführen, ändere<nl><s1>diese Einstellungen hier."
+  #
+  # > Island flag description": Allows members to do certain tasks on your island. Change these settings here.
+"flag_memberd": "<s1>Erlaube Mitgliedern diverse<nl><s1>Aktionen auf deiner Insel<nl><s1>auszuführen, ändere<nl><s1>diese Einstellungen hier."
+  
+  #
+  # > Flag settings
+  #
+  # > Flag setting subtext": This setting can be changed.
+"flag_toggleflagstrue": "<s1>Diese Einstellung<nl><s1>kann geändert werden."
+  #
+  # > Flag setting subtext": This setting can not be changed.
+"flag_toggleflagsfalse": "<s1>Diese Einstellung<nl><s1>kann nicht geändert werden."
+  #
+  # > Flag setting subtext": Current setting:
+"flag_currentsetting": "<s1>Aktuelle Einstellung": "
+  #
+  # > Flag setting subtext": &2On.
+"flag_currenttrue": "&2An"
+  #
+  # > Flag setting subtext": &4Off.
+"flag_currentfalse": "&4Aus"
+  #
+  # > Message": The owner (leader) of this island has the function disabled.
+"flag_errorfalse": "Der Inselbesitzer hat diese Funktion abgeschaltet."
+  #
+  # > Message": Welcome on the island of <leader> (placeholder)!
+"islandaccess_welcome": "Willkommen der Insel von <leader>!"
+  #
+  # > Access denied message": This islannd is not accessable for you.
+"islandaccess_noaccess": "Diese Insel ist für dich nicht zugänglich."
+  #
+  # > Ore generator add-on
+  #
+  # > Ore Generator title
+"og_name": "Erz Generator:"
+  #
+  # > Current level of the ore generator.
+"og_currentlvl": "Aktuelles Level:"
+  #
+  # > Ore generator progress until next level. <c> (placeholder) = current blocks, <n> (placeholder) = needed blocks
+"og_progress": "Fortschritt": <c> / <n> Blöcke"
+  #
+  # > Ore generator custom ore chances for you
+"og_chancesforyou": "Erz Generator Chancen für dich:"
+  #
+  # > Alert for players who made their lava into obsidian": You can transform obsidian back to lava by clicking on it with a empty bucket.
+"og_o2lforminfo": "Du kannst Obsidian wieder zu Lava verwandeln, indem du mit einem leeren Eimer darauf klickst."
+  #
+  # > Biome change add-on
+"bc_changing": "Ändere das Biom zu": <biome>"
+"bc_done": "Biomänderung abgeschlossen."
+"bc_changebiomeheader": "Biom ändern"
+"bc_changebiomemenulore": "<s1>Ändere das Biom deiner Insel."
+"bc_shopprice": "Preis": <price>"
+"bc_shopfree": "Kostenlos"
+"bc_notenoughmoney": "Du hast nicht genug Geld dafür."
+  #
+  # > Island upgrades
+"bc_islandsizeshop": "Vergrößert deine Insel<nl>auf <size>x<size> Blöcke."
+"bc_islandsizetitle": "&rInselgröße"
+"bc_islandhoppertitle": "&rTrichter"
+"bc_islandhometitle": "&rZuhause"
+"bc_islandhoppershop": "Erlaubt dir insgesamt<nl><size> Trichter zu setzen."
+"bc_islandhopperlimitinfo": "Du kannst nur <size> Trichter setzen."
+"bc_islandhomeshop": "Erlaubt dir insgesamt<nl><size> Homes zu setzen."
+"bc_islandupgrades": "Insel Erweiterungen"
+"upgradeavailable": "<s1>Die Insel ist nicht vollständig erweitert, erweitere die Insel, um auch hier bauen zu können": <p1>/island upgrades"
+"entitylimitreached": "<s1>Du hast die Grenze für aktive Wesen erreicht, erweitere deine Grenze mit": <p1>/island upgrades"
+
+  #
+  # > Island item binding
+"islandbound": "Inselgebunden"
+"boundtoanotherisland": "Dieser Block ist an eine andere Insel gebunden."
+
+  #
+  # > JetBoots
+"jetboots_fi": "Fülle deine &eJetBoots&r mit Kohle auf, während du diese trägst. Pass auf, dass du nicht an einer Grenze nach unten fällst. Andere Inselinhaber haben die &eJetBoots&r wahrscheinlich für dich abgeschaltet."
+"jetboots_ei": "Deine &eJetBoots&r sind leer!"
+"jetboots_li": "Deine &eJetBoots&r wurden aufgefüllt."
+
+  #
+  # > Storage unit
+"storage_menutitle": "Lagersystem"
+"storage_hopperbelowdisabled": "Trichtertransport aus Lagersystemen ist deaktiviert."
+"storage_onlybreakempty": "Du kannst nur leere Lagersysteme abbauen."
+"storage_notenoughinvspace": "Du hast nicht genug Platz im Inventar."
+"storage_storeintitle": "Einlagern"
+"storage_storeinmenu": "<s1>Lagere alles von diesem<nl><s1>Item im Lagersystem ein."
+"storage_getoutmenu": "<s1>Erhalte <max> aus diesem<nl><s1>Lagersystem.<nl><guispacer><nl><s1>Vorrat": <supply>"
+  
+  #
+  # > Recovery menu
+"recovery_guiitemlore": "<p2>Wiederherstellung<nl><s1>Platziere diese Kiste,<nl><s1>um dein Inventar zu erhalten.<nl><guispacer><nl><s1>Preis": <price><nl><guispacer><nl><s1>Datum": <date>"
+"recovery_header": "<l>Wiederherstellung"
+"recovery_guiitemname": "&rErhalte dein Inventar zurück"
+"recovery_notenoughspace": "<p1>Es sollte kein Block über der Wiederherstellungskiste sein."
+"recovery_placetoget": "<s1>Platziere diese Kiste um dein Inventar wiederherzustellen. Diese Wiederherstellung ist zeitlich limitiert und sollte schnellstmöglich durchgeführt werden."
+"recovery_inventoryspaceneeded": "Du hast nicht genug Platz in deinem Inventar."
+"recovery_recoveredinfo": "<s1>Dein Inventar wurde gesichert, erhalte es mit <p1>/recovery<s1> zurück."
+"recovery_free": "<p1>Kostenlos"
+
+  #
+  # > Store
+"store_guititle": "<l>Laden"
+"store_lvlthreshold": "<s1>Dieser Gegenstand<nl><s1>ist erst ab Insellevel<nl><s1><level> verfügbar."
+"store_pageforward": "&rWeiter"
+"store_pageforwardlore": "<s1>Blättere weiter um<nl><s1>die nächste Seite<nl><s1>zu sehen."
+"store_pagebackward": "&rZurück"
+"store_pagebackwardlore": "<s1>Blättere zurück um<nl><s1>die vorherige Seite<nl><s1>zu sehen."
+"store_buymodeitem": "&rKaufen"
+"store_sellmodeitem": "&rVerkaufen"
+"store_buymodeitemlore": "<s1>Klicke hier, um<nl><s1>Gegenstände zu<nl><s1>kaufen."
+"store_sellmodeitemlore": "<s1>Klicke hier, um<nl><s1>Gegenstände zu<nl><s1>verkaufen."
+"store_currentmodebuy": "Aktuell": Kaufen"
+"store_currentmodesell": "Aktuell": Verkaufen"
+"store_cantbuy": "<s1>Dieser Gegenstand ist<nl><s1>nicht kaufbar."
+"store_cantsell": "<s1>Dieser Gegenstand ist<nl><s1>nicht verkaufbar."
+"store_itemselllore": "<s1>Ertrag": <amount> <currency><nl><s1>Klicke hier, um diesen<nl><s1>Gegenstand zu verkaufen."
+"store_itembuylore": "<s1>Preis": <amount> <currency><nl><s1>Klicke hier, um diesen<nl><s1>Gegenstand zu kaufen."
+"store_soldxitems": "Du hast <ph><ph> für <ph> verkauft."
+"store_boughtxitems": "Du hast <ph><ph> für <ph> gekauft."
+"store_notenoughitem": "Du hast nicht genug <ph>."
+"store_maxsellamountreached": "Du hast das Verkaufslimit von <amount> <currency> erreicht. Komm morgen wieder."
+
+  #
+  # > Lootbox
+"lootbox_guiheader": "&o» Loot<l>Kisten<s1>"
+"lootbox_itemname": "&fLoot<p1><l>Kiste"
+"lootbox_reward": "<s1>Belohnung:<p1>"
+"lootbox_gotalootbox": "<s1>Du hast eine Lootbox erhalten."
+"lootbox_gotalootboxvar": "<s1>Du hast eine Lootbox erhalten. Öffne sie mit /island loot"
+"lootbox_tierguiitemlore": "<s1><l>Güteklasse": <tier><nl><guispacer><nl><s1>Du kannst noch<nl><p1><amount> <s1>öffnen."
+"lootbox_clicktoopen": "<s1>Klicke <p1>hier<s1>,<nl><s1>um zu öffnen."
+
+  #
+  # > AFK Check
+"afkcheck_title": "AFK Check"
+"afkcheck_subtitle": "Bitte schreibe <p1><l>/afkok <random>"
+"afkcheck_noresponse": "<player> hat nicht geantwortet."
+"afkcheck_notafk": "Du bist nicht afk. Danke für deine Mitteilung."
+"afkcheck_onlyifasked": "Schreibe diesen Befehl nur, wenn du danach gefragt wirst."
+"afkcheck_playernotafk": "<player> hat nach <time> Sekunden geantwortet."
+"afkcheck_incorrectnumber": "Bitte füge die korrekte Nummer mit an."
+
+  #
+  # > Anti AFK
+"antiafk_showactivity": "<s1>Aktivität wird nun angezeigt."
+"antiafk_hideactivity": "<s1>Aktivität wird nun ausgeblendet."
+"antiafk_kickreason": "<s1>Du hast dich zu lange nicht bewegt. Bewege dich mehr, damit deine Aktivität steigt. Du kannst deine Aktivität mit /toggleactivity anzeigen lassen."
+"antiafk_actionbar": "<s1>Aktivität": <activity>"
+
+  #
+  # > Deathback
+"deathback_nolocation": "<s1>Dieser Befehl funktioniert nur nachdem du gestorben bist."
+"deathback_backcmd": "<s1>Du kannst zu dem Todesort mit <p1>/back<s1> zurückkehren."
+"deathback_teleported": "<s1>Du wurdest zu deinem Todesort teleportiert."
+
+  #
+  # > Votingrewards
+"vr_menu_header": "<l>Votebelohnungen"
+"vr_day1title": "Tag 1"
+"vr_day2title": "Tag 2"
+"vr_day3title": "Tag 3"
+"vr_day4title": "Tag 4"
+"vr_day5title": "Tag 5"
+"vr_day6title": "Tag 6"
+"vr_day7title": "Tag 7"
+"vr_dayheadlore": "<s1>Belohnungen<nl><guispacer><nl><rewards><nl><guispacer>"
+"vr_currencylore": "<s1><money> <currency>"
+"vr_getvotelinktitle": "&rVotelink erhalten"
+"vr_getvotelinklore": "<s1>Klicke hier, um<nl><s1>deinen Votelink zu<nl><s1>erhalten, mit dem du<nl><s1>voten kannst."
+"vr_claimrewardtitle": "&rBelohnungen abholen"
+"vr_claimrewardlore": "<s1>Klicke hier, um deine<nl><s1>Votebelohnungen<nl><s1>abzuholen."
+"vr_votelinkmessage": "Hier ist dein Votelink": <votelink>."
+"vr_votelinktext": "&b&oHier klicken"
+"vr_votelinkhovertext": "<s1>Klicke hier, um<nl><s1>die Voteseite<nl><s1>zu öffnen."
+"vr_recievedrewards": "<s1>Du hast <amount> Belohnungen abgeholt."
+"vr_votebroadcast": "<player> hat gevotet und Belohnungen erhalten, vote auch mit /vote."
+"vr_claimedreward": "Du hast folgende Votebelohnungen erhalten:"
+"vr_claimedmoney": "> <amount> <currency>"
+"vr_claimedother": "> <amount> sonstige Belohnungen"
+"vr_nothingtoclaim": "Für dich stehen keine Belohnungen bereit."
+
+  #
+  # > Parcours
+"parkour_guiheader": "<l>Parkour"
+"parkour_toplist_header": "<l>Bestenliste:"
+"parkour_toplist_item": "&rBestenliste"
+"parkour_personalbest": "Du hast deine Bestzeit verbessert."
+"parkour_nopersonalbest": "Du hast deine Bestzeit nicht geschlagen."
+"parkour_personalbesttime": "Bestzeit": <p2><l><time>"
+"parkour_thisruntime": "Dieser Lauf": <p2><l><time>"
+"parkour_pastpersonalbest": "Bisherige Bestzeit": <p2><l><time>"
+"parkour_currentrank": "Aktueller Rang": <rank>"
+"parkour_checkpointreached": Checkpoint erreicht
+"parkour_checkpointinvalid": Ungültiger Checkpoint
+"parkour_finishinvalid": Ungültiges Ziel
+"parkour_itemcheckpointname": "&rCheckpoint"
+"parkour_itemrestartname": "&rNeustart"
+"parkour_itemexitname": "&rBeenden"
+"parkour_parcourunloaded": Der Parkour wurde entladen. Danke fürs spielen.
+"parkour_finishmsg": Glückwunsch! Du hast das Ziel erreicht.
+"parkour_yourtime": "Deine Zeit": <p2><l><time>"
+"parkour_menucheckpointitemname": "&rCheckpoint Platte"
+"parkour_menufinishitemname": "&rZiel Platte"
+"parkour_menuremoveblockname": "&rEntferne diesen Parkour Block"
+"parkour_menucheckpointitemlore": "<s1>Erhalte eine Checkpoint<nl><s1>Platte zum platzieren.<nl><nl><s1>Funktioniert nur<nl><s1>für diesen Parkour.
+"parkour_menufinishitemlore": "<s1>Erhalte eine Ziel<nl><s1>Platte zum platzieren.<nl><nl><s1>Funktioniert nur<nl><s1>für diesen Parkour.
+"parkour_menuremoveblocklore": "<s1>Erhalte den Block<nl><s1>als Item zurück.
+"parkour_noinventoryinparcour": Du kannst während dem Parkour keine Inventare öffnen.
+"parkour_parcouritemcheckpoint": "&r<p2>Parkour "Checkpoint"
+"parkour_parcouritemfinish": "&r<p2>Parkour "Ziel"
+"parkour_parcouritemstart": "&r<p2>Parkour "Start"
+
+  #
+  # > Custom Stands addon
+"cs_guiheader": "<l>Rüstungsständer anpassen"
+"cs_head": "&rKopf"
+"cs_body": "&rOberkörper"
+"cs_legs": "&rBeine"
+"cs_feet": "&rFüße"
+"cs_rightleg": "&rRechtes Bein"
+"cs_leftleg": "&rLinkes Bein"
+"cs_rightarm": "&rRechter Arm"
+"cs_leftarm": "&rLinker Arm"
+"cs_xcoord": "&rX Koordinate"
+"cs_ycoord": "&rY Koordinate"
+"cs_zcoord": "&rZ Koordinate"
+"cs_placeitemslot": "<s1>Platziere das Item hier,<nl><s1>welches du für diesen<nl><s1>Slot haben möchtest."
+"cs_togglesize": "&rGröße"
+"cs_togglesizelore": "<s1>Schalte die Größe<nl><s1>zwischen klein und groß um."
+"cs_togglevisibility": "&rSichtbarkeit"
+"cs_togglevisibilitylore": "<s1>Schalte die Sichtbarkeit<nl><s1>des Rüstungsständers um."
+"cs_toggleglow": "&rLeuchten"
+"cs_toggleglowlore": "<s1>Schalte das Leuchten<nl><s1>des Rüstungsständers um."
+"cs_togglebaseplate": "&rBasisplatte"
+"cs_togglebaseplatelore": "<s1>Schalte die Basisplatte<nl><s1>des Rüstungsständers um."
+"cs_togglearms": "&rArme"
+"cs_togglearmslore": "<s1>Schalte die Arme<nl><s1>des Rüstungsständers um."
+"cs_changedirection": "&rRichtung"
+"cs_changedirectionlore": "<s1>Stelle die Richtung<nl><s1>des Rüstungsständers um."
+"cs_copyarmorstand": "&rKopieren"
+"cs_copyarmorstandlore": "<s1>Kopiere diesen<nl><s1>Rüstungsständer."
+"cs_togglename": "&rName"
+"cs_togglenamelore": "<s1>Stelle den Namen des<nl><s1>Rüstungsständers zwischen<nl><s1>sichtbar und unsichtbar um.<nl><s1>Ändere den Namen<nl><s1>mit /renamestand <text>."
+"cs_removearmorstand": "&rEntfernen"
+"cs_removearmorstandlore": "<s1>Entferne diesen<nl><s1>Rüstungsständer und<nl><s1>erhalte eine Kopie<nl><s1>davon zum platzieren."
+"cs_copytoolname": "&rKopierstab"
+"cs_copytoollore": "<s1>Dieses Werkzeug kopiert den<nl><s1>Rüstungsständer dauerhaft,<nl><s1>du kannst es lagern."
+"cs_lookatstand": "Schaue den Rüstungsständer an, um ihn zu bearbeiten. [<number>/50]"
+
+  #
+  # > Robots
+  #
+  # > Robot jobs
+"robot_job_name_1": "Minenarbeiter"
+"robot_job_lore_1": "<s1>Baut die Blöcke davor ab."
+"robot_job_name_2": "Holzfäller"
+"robot_job_lore_2": "<s1>Fällt die Bäume davor."
+
+  #
+  # > Robot designs
+"robot_design_name_1": "Schaf"
+"robot_design_lore_1": "<s1>Roboter im<nl><s1>Schaf Stil."
+"robot_design_name_2": "Golem"
+"robot_design_lore_2": "<s1>Roboter im<nl><s1>Schaf Stil.
+"robot_design_name_3": "Schwein"
+"robot_design_lore_3": "<s1>Roboter im<nl><s1>Schwein Stil."
+"robot_design_name_4": "Schleim"
+"robot_design_lore_4": "<s1>Roboter im<nl><s1>Schwein Stil."
+"robot_design_name_5": "Kuh"
+"robot_design_lore_5": "<s1>Roboter im<nl><s1>Kuh Stil."
+"robot_design_name_6": "Huhn"
+"robot_design_lore_6": "<s1>Roboter im<nl><s1>Huhn Stil."
+"robot_design_name_7": "Creeper"
+"robot_design_lore_7": "<s1>Roboter im<nl><s1>Creeper Stil."
+"robot_design_name_8": "Dorfbewohner"
+"robot_design_lore_8": "<s1>Roboter im<nl><s1>Dorfbewohner Stil."
+"robot_design_name_9": "Enderman"
+"robot_design_lore_9": "<s1>Roboter im<nl><s1>Enderman Stil."
+"robot_design_name_10": "Lavaschleim"
+"robot_design_lore_10": "<s1>Roboter im<nl><s1>Lavaschleim Stil."
+"robot_design_name_11": "Kaktus"
+"robot_design_lore_11": "<s1>Roboter im<nl><s1>Kaktus Stil."
+"robot_design_name_12": "Kokusnuss"
+"robot_design_lore_12": "<s1>Roboter im<nl><s1>Kokusnuss Stil."
+"robot_design_name_13": "Kuchen"
+"robot_design_lore_13": "<s1>Roboter im<nl><s1>Kuchen Stil."
+"robot_design_name_14": "Ozelot"
+"robot_design_lore_14": "<s1>Roboter im<nl><s1>Ozelot Stil."
+"robot_design_name_15": "Zombie"
+"robot_design_lore_15": "<s1>Roboter im<nl><s1>Zombie Stil."
+"robot_design_name_16": "Steve"
+"robot_design_lore_16": "<s1>Roboter im<nl><s1>Steve Stil."
+"robot_design_name_17": "Wither"
+"robot_design_lore_17": "<s1>Roboter im<nl><s1>Wither Stil."
+"robot_design_name_18": "Wither Skelett"
+"robot_design_lore_18": "<s1>Roboter im<nl><s1>Wither Skelett Stil."
+"robot_design_name_19": "Melone"
+"robot_design_lore_19": "<s1>Roboter im<nl><s1>Melonen Stil."
+"robot_design_name_20": "Kürbis"
+"robot_design_lore_20": "<s1>Roboter im<nl><s1>Kürbis Stil."
+"robot_design_name_21": "Lohe"
+"robot_design_lore_21": "<s1>Roboter im<nl><s1>Lohen Stil."
+
+  #
+  # > Robot menu
+"robot_on": "&r<s1>[<p1><l>AN&r<s1>]"
+"robot_robotoff": "&r<s1>[<p1><l>AUS&r<s1>]"
+"robot_currentdesign": "&rAktuelles Design"
+"robot_currentjob": "&rAktueller Beruf"
+"robot_robotstatuson": "&rRoboter <s1>[<p1><l>AN&r<s1>]"
+"robot_robotstatusoff": "&rRoboter <s1>[<p1><l>AUS&r<s1>]"
+"robot_clicktotogglesstatus": "<s1>Klicke, um den<nl><s1>Roboter zwischen<nl><s1>an und aus umzustellen."
+"robot_stats": "&rStatistik"
+"robot_blocksbroken": "<s1>Blöcke abgebaut": <p1><blocks>"
+"robot_robotjobguiname": "<l>Roboter Berufe"
+"robot_robotdesignguiname": "<l>Roboter Designs"
+"robot_robotguiname": "<l>Roboter Menü"
+"robot_prefix": "<s1>[<p1>Roboter<s1>]"
+"robot_renamedrobot": "Der Roboter wurde umbenannt."
+"robot_onlyrobotownererror": "Nur der Besitzer des Roboters kann diesen umbenennen."
+"robot_renametitle": "&rUmbenennen"
+"robot_renamelore": "<s1>Benenne diesen Roboter<nl><s1>mit /robotname <name> um."
+"robot_breakrobot": "&rRoboter abbauen"
+"robot_breakrobotlore": "<s1>Klicke hier, um<nl><s1>den Roboter zurück in<nl><s1>ein Item zu tauschen."
+"robot_revertedrobottoitem": "Dein Roboter wurde wieder zu einem Item."
+
+  #
+  # > Challenges
+"challenge_menutitle": "<l>Herausforderungen"
+"challenge_disabled": "<l>Herausforderungen sind nicht verfügbar."
+"challenge_youneed": "Du benötigst:"
+"challenge_youstillneed": "Du benötigst noch:"
+"challenge_youget": "Du erhälst:"
+"challenge_amountofitem": "<s1>» <amount> <item>"
+"challenge_onlyxtimesaday": "Du kannst diese Herausforderung nur <amount> mal am Tag wiederholen."
+"challenge_cantrepeated": "Diese Herausforderung kann nicht wiederholt werden."
+"challenge_level": "&rLevel <level>"
+"challenge_unlocked": "<s1>Freigeschaltet"
+"challenge_xpneeded": "&rErfahrung benötigt"
+"challenge_xpionlywclvl": "&rSchließe||&rHerausforderungen||&rab, um dieses Level||&rzu erreichen."
+"challenge_repeatable": "<s1>Wiederholbar [<current>/<maxrepeat>]"
+"challenge_notrepeatable": "<s1>Nicht wiederholbar."
+"challenge_xp": "<s1>XP": <amount>"
+"challenge_statssitelore": "<s1>Erhalte deine aktuelle<nl><s1>Herausforderungsstatistik."
+"challenge_repeatbonustitle": "&rWiederholungsbonus"
+"challenge_repeatbonuslore": "&r<s1>Aktueller Bonus": <bonus>%<nl><s1>Bonusfortschritt": <progress>%"
+
+  #
+  # > Challenge names
+"challenge_name_1_1": "Kakteenfarmer"
+"challenge_name_1_2": "Kiesverwender"
+"challenge_name_1_3": "Moosige Freunde"
+"challenge_name_1_4": "Waldfreund"
+"challenge_name_1_5": "Lehmige aussichten"
+"challenge_name_1_6": "Melonenmagnat"
+"challenge_name_1_7": "Kürbisbauer"
+
+"challenge_name_2_1": "Holzfäller"
+"challenge_name_2_2": "Grüße aus der Hölle"
+"challenge_name_2_3": "Erdmensch"
+"challenge_name_2_4": "Gartenarbeit"
+"challenge_name_2_5": "Pilzzüchter"
+"challenge_name_2_6": "Dschungel-Kind"
+"challenge_name_2_7": "Krümelige Angelegenheit"
+"challenge_name_2_8": "Bäckerei"
+"challenge_name_2_9": "Unter Hochdruck"
+
+"challenge_name_3_1": "Luftminenexperte"
+"challenge_name_3_2": "Riechendes Geschäft"
+"challenge_name_3_3": "Fischparadies"
+"challenge_name_3_4": "Korallenriff"
+"challenge_name_3_5": "Fliegendes Gewässer"
+"challenge_name_3_6": "Augenexperte"
+"challenge_name_3_7": "Erfahrungssammler"
+"challenge_name_3_8": "Heiße Sachen"
+"challenge_name_3_9": "Abrüstung durch Verrottung"
+"challenge_name_3_10": "Zurück zum Ursprung"
+"challenge_name_3_11": "Bogenschütze... oder Armbrustschütze?"
+
+"challenge_name_4_1": "Leuchtende Aussichten"
+"challenge_name_4_2": "Aufgesattelt"
+"challenge_name_4_3": "Glas? ERDE!"
+"challenge_name_4_4": "Seetang Räucherei"
+"challenge_name_4_5": "Brauereimeister"
+"challenge_name_4_6": "Tränen des Schreckens"
+"challenge_name_4_7": "Meister des Transports"
+"challenge_name_4_8": "Tiefsee Abenteuer"
+"challenge_name_4_9": "Schwammiges Erlebnis"
+"challenge_name_4_10": "Brrrr, kann jemand die Heizung anschalten?"
+
+"challenge_name_5_1": Geheime Experimente"
+"challenge_name_5_2": Geklebt, sieht aus wie echt!"
+"challenge_name_5_3": Zzzsssss..."
+"challenge_name_5_4": Kopfig"
+"challenge_name_5_5": Eins mit den Meerestieren"
+"challenge_name_5_6": Dödelmeister"
+"challenge_name_5_7": Ausgestopfte Drachen"
+"challenge_name_5_8": Selbst gewebt"
+"challenge_name_5_9": Fermentierte Augen"
+"challenge_name_5_10": Das Ultimative Item"
+
+  #
+  # > Store categories
+"store_category_blocks": "&rBlöcke"
+"store_category_items": "&rItems"
+"store_category_eggs": "&rSpawneier"
+"store_category_food": "&rLebensmittel"
+"store_category_decoration": "&rDekoartikel"
+"store_category_ores": "&rErze"
+"store_category_colorblocks": "&rFarbige Blöcke"
+
+  #
+  # > Tokenshop
+
+"tokenshop": "Tokenshop"
+
+"tokenshop_lore": "<s1>Hier kannst du verzauberte goldene Äpfel<nl><s1>gegen wertvolle Gegenstände eintauschen"
+
+"successful_netherite_trade": "Du hast erfolgreich einen verzauberten goldenen Apfel gegen ein Netherite getauscht!"
+
+"not_enough_enchanted_gapples": "Du hast nicht genug verzauberte goldene Äpfel!"
+
+
+  #
+  # > Tradeshop
+  
+"tradeshop": "Tauschladen"
+"tradeshop_lore": "<s1>Hier kannst du Dekorationsblöcke<nl><s1>gegen Bruchstein eintauschen"
+
+
+  #
+  # > Miscellaneous
+"block_enchanted_gapple_eat": "<w1>Willst du wirklich deinen verzauberten Gold Apfel essen?<nl><s1>Du kannst ihn mit <p1>/tokenshop <s1>gegen wertvolle Items ein."
+
+
+  #> JoinMessageSB
+"joinmessagesb": "&cWillkommen im &n&9Skyblock&c! Du kannst alle wichtigen Befehle mit &9/is help &ceinsehen. Falls du dennoch Hilfe brauchst kannst du gerne mit &9/ticket &cein Ticket eröffnen!"
+
+"perkshop_title": "Perk Shop"
+
+"perkshop_lore": "<s1>Kaufe temporäre Effekte."
+
