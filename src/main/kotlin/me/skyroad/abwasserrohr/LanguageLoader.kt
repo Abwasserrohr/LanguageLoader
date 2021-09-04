@@ -11,6 +11,7 @@ class LanguageLoader: JavaPlugin() {
         lateinit var instance: Plugin
         lateinit var container: LanguageContainer
         lateinit var pluginFolder: File
+        var fallbackLanguageCode: String = "en"
         val packs: ArrayList<String> = arrayListOf()
         var onlyLocal = false
     }
@@ -20,6 +21,8 @@ class LanguageLoader: JavaPlugin() {
 
         onlyLocal = config.getBoolean("localload")
         packs.addAll(config.getStringList("loadpacks"))
+
+        config.getString("fallbackCode")?.let { fallbackLanguageCode = it }
 
         pluginFolder = dataFolder
         instance = this

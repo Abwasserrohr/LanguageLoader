@@ -66,7 +66,17 @@ class LanguageContainer {
                 message = message.replace(replaceValue.key, replaceValue.value)
             }
             return message
+        } ?: run {
+            // The requested translation is not available, try for the fallback language code instead.
+            container[pack]?.get(LanguageLoader.fallbackLanguageCode)?.get(messageKey)?.let {
+                var message = it
+                replaceMap?.forEach { replaceValue ->
+                    message = message.replace(replaceValue.key, replaceValue.value)
+                }
+                return message
+            }
         }
+        // There is no entry for the requested language code or the fallback language code, send error.
         return "[missing: \"$pack\" \"$lang\" \"$messageKey\"]"
     }
 

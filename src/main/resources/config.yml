@@ -5,3 +5,6 @@ loadpacks:
 
 # Only load language files from local drive.
 localload: false
+
+# Fallback language code:
+fallbackCode: en
