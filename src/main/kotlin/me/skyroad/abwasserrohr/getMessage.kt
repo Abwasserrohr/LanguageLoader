@@ -13,7 +13,7 @@ fun getMessage(pack: String, lang: String, messageKey: String, replaceMap: HashM
 fun Player.sendTranslatedMessage(pack: String, messageKey: String, sendPrefix: Boolean, replaceMap: HashMap<String, String>) {
     var message = ""
     val langCode = this.locale.split("_")[0]
-    if (sendPrefix) { message += getMessage("general", langCode, messageKey) + " " }
+    if (sendPrefix) { message += getMessage("general", langCode, "prefix") + " " }
     message += getMessage(pack, langCode, messageKey, replaceMap)
     this.sendMessage(message)
 }
@@ -21,7 +21,7 @@ fun Player.sendTranslatedMessage(pack: String, messageKey: String, sendPrefix: B
 fun Player.sendTranslatedMessage(pack: String, messageKey: String, sendPrefix: Boolean = true) {
     var message = ""
     val langCode = this.locale.split("_")[0]
-    if (sendPrefix) { message += getMessage("general", langCode, messageKey) + " " }
+    if (sendPrefix) { message += getMessage("general", langCode, "prefix") + " " }
     message += getMessage(pack, langCode, messageKey)
     this.sendMessage(message)
 }
