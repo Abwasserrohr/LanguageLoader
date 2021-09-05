@@ -4,16 +4,18 @@ import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.encodeToJsonElement
 import me.skyroad.abwasserrohr.LanguageLoader
+import org.bukkit.Bukkit
 import org.bukkit.ChatColor
 import org.yaml.snakeyaml.Yaml
 import java.io.File
-import java.lang.Exception
 import java.net.URL
+import kotlin.Exception
 
 class LanguageContainer {
     private val loadedPacks = hashMapOf<String, String>()
     // HashMap<Pack,HashMap<LanguageCode,HashMap<MessageKey, MessageString>>>
     private val container: HashMap<String,HashMap<String, HashMap<String, String>>> = hashMapOf()
+    private lateinit var languages: Map<String, ArrayList<String>>
 
     init {
 
@@ -38,7 +40,7 @@ class LanguageContainer {
         var loadedMessages = 0
         loadedPacks.forEach { pack ->
             val yaml = Yaml()
-            val languages = yaml.load<Map<String, ArrayList<String>>>(loadText(URL(pack.value)))
+            languages = yaml.load<Map<String, ArrayList<String>>>(loadText(URL(pack.value)))
             (languages["languages"])?.forEach { languageCode ->
                 val packURL = pack.value.replace(".yml", "_$languageCode.yml")
                 val data = yaml.load<Map<String, String>>(loadText(URL(packURL)))
@@ -52,6 +54,50 @@ class LanguageContainer {
                     data.forEach { languageData ->
                         it[languageData.key] = ChatColor.translateAlternateColorCodes('&', languageData.value)
                         loadedMessages++
+                    }
+                }
+
+                val loopContainer = container.clone() as HashMap<String, HashMap<String, HashMap<String, String>>>
+                loopContainer[pack.key]?.get(languageCode)?.forEach {
+                    it.value
+                    if (it.value.contains("%{")) {
+                        val replaceInnerData = it.value.split("%{")
+                        replaceInnerData.forEach { replacement ->
+                            val replaceString = replacement.split("}%")[0]
+                            val replaceKeys = replaceString.split("/")
+                            loopContainer[replaceKeys[0]]?.get(languageCode)?.get(replaceKeys[1])?.let { translatedValue ->
+                                container[replaceKeys[0]]?.get(languageCode)?.set(replaceKeys[1], translatedValue)
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Trying to apply all %{packName/translationKey}% variables in the files.
+        (languages["languages"])?.forEach { languageCode ->
+            loadedPacks.forEach { pack ->
+                val loopContainer = container.clone() as HashMap<String, HashMap<String, HashMap<String, String>>>
+                loopContainer[pack.key]?.get(languageCode)?.forEach {
+                    if (it.value.contains("%{")) {
+                        val replaceInnerData = it.value.split("%{")
+                        replaceInnerData.forEach { replacement ->
+                            try {
+                                val replaceString = replacement.split("}%")[0]
+                                val replaceKeys = replaceString.split("/")
+                                if (replaceKeys.size == 2) {
+                                    loopContainer[replaceKeys[0]]?.get(languageCode)?.get(replaceKeys[1])
+                                        ?.let { translatedValue ->
+                                            container[replaceKeys[0]]?.get(languageCode)?.get(it.key)?.replace(
+                                                "%{${replaceKeys[0]}/${replaceKeys[1]}}%",
+                                                translatedValue
+                                            )?.let { newValue ->
+                                                container[replaceKeys[0]]?.get(languageCode)?.set(it.key, newValue)
+                                            }
+                                        }
+                                }
+                            } catch (e: Exception) { println("Error while applying internal translations: $e") }
+                        }
                     }
                 }
             }
