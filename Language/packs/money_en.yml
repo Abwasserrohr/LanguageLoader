@@ -3,5 +3,6 @@
 "eventCurrency": "%{money/eventCurrencyName}%: <amount> %{money/eventCurrencyNameShort}%"
 "currencyName": "Taler"
 "currencyNameShort": "Taler"
+"currencyNamePlural": "Taler"
 "eventCurrencyName": "EventPoints"
 "eventCurrencyNameShort": "EP"
