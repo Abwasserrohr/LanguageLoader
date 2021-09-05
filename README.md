@@ -5,7 +5,7 @@ LanguageLoader is meant to be used for almost all messages on our Minecraft serv
 ## Usage Example
 
 Skript
-```yaml
+```python
 import:
   me.skyroad.abwasserrohr.GetMessageKt
   me.skyroad.abwasserrohr.GetLangCodeKt
