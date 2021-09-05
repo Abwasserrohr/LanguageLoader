@@ -25,3 +25,15 @@ fun Player.sendTranslatedMessage(pack: String, messageKey: String, sendPrefix: B
     message += getMessage(pack, langCode, messageKey)
     this.sendMessage(message)
 }
+
+fun sendMessage(player: Player, pack: String, messageKey: String, sendPrefix: Boolean, replaceMap: HashMap<String, String>) {
+    player.sendTranslatedMessage(pack, messageKey, sendPrefix, replaceMap)
+}
+
+fun sendMessage(player: Player, pack: String, messageKey: String, sendPrefix: Boolean = true) {
+    player.sendTranslatedMessage(pack, messageKey, sendPrefix)
+}
+
+fun sendMessage(player: Player, pack: String, messageKey: String) {
+    player.sendTranslatedMessage(pack, messageKey)
+}
