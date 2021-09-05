@@ -44,12 +44,12 @@ String langCode = GetLangCodeKt.getLangCode(player);
 String msg = GetMessageKt.getMessage("general", langCode, "prefix");
 
 // Send message directly, automatically adding prefix:
-GetMessageKt.sendMessage(player, "general", "prefix")
+GetMessageKt.sendMessage(player, "general", "prefix");
 
 // Send message and replace placeholders using HashMap, adding prefix:
 HashMap<String, String> map = new HashMap<String, String>();
 map.put("<player>","Abwasserrohr");
-GetMessageKt.sendMessage(player, "bauevent", "playerNotFound", true, map)
+GetMessageKt.sendMessage(player, "bauevent", "playerNotFound", true, map);
 ```
 
 Kotlin
