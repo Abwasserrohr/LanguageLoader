@@ -1,0 +1,7 @@
+"accountOf": "Account of <player>:"
+"balance": "Balance: <amount> %{money/currencyName}%"
+"eventCurrency": "%{money/eventCurrencyName}%: <amount> %{money/eventCurrencyNameShort}%"
+"currencyName": "Taler"
+"currencyNameShort": "Taler"
+"eventCurrencyName": "EventPoints"
+"eventCurrencyNameShort": "EP"
