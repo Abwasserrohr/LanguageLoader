@@ -298,7 +298,7 @@
 "help-title-isjoin": "<p1>Einladung annehmen"
   #
   # > Description for: Accept invitation.
-"help-desc-isjoin": "<s1>Nimmt eine Einladung an.
+"help-desc-isjoin": "<s1>Nimmt eine Einladung an."
   #
   # > Command example for: Accept invitation.
 "help-cmd-isjoin": "/is join "
