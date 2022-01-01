@@ -1,4 +1,4 @@
-#
+
 # > SKYBLOCK.SK LANGUAGE": DE "German
 # > COMPATIBLE VERSION": x (there is no release yet)
 #
@@ -692,7 +692,7 @@
 "flag_tree-branchest": "Verästelte Bäume"
   #
   # > Island flag title": Snow and ice smelting
-"flag_snow-ice-meltt": "Schnee"und Eisschmelze"
+"flag_snow-ice-meltt": "Schnee und Eisschmelze"
   #
   # > Island flag title": Flags
 "flag_flagst": "Flags"
@@ -809,7 +809,7 @@
 "flag_toggleflagsfalse": "<s1>Diese Einstellung<nl><s1>kann nicht geändert werden."
   #
   # > Flag setting subtext": Current setting:
-"flag_currentsetting": "<s1>Aktuelle Einstellung": "
+"flag_currentsetting": "<s1>Aktuelle Einstellung: "
   #
   # > Flag setting subtext": &2On.
 "flag_currenttrue": "&2An"
@@ -835,7 +835,7 @@
 "og_currentlvl": "Aktuelles Level:"
   #
   # > Ore generator progress until next level. <c> (placeholder) = current blocks, <n> (placeholder) = needed blocks
-"og_progress": "Fortschritt": <c> / <n> Blöcke"
+"og_progress": "Fortschritt: <c> / <n> Blöcke"
   #
   # > Ore generator custom ore chances for you
 "og_chancesforyou": "Erz Generator Chancen für dich:"
@@ -844,11 +844,11 @@
 "og_o2lforminfo": "Du kannst Obsidian wieder zu Lava verwandeln, indem du mit einem leeren Eimer darauf klickst."
   #
   # > Biome change add-on
-"bc_changing": "Ändere das Biom zu": <biome>"
+"bc_changing": "Ändere das Biom zu: <biome>"
 "bc_done": "Biomänderung abgeschlossen."
 "bc_changebiomeheader": "Biom ändern"
 "bc_changebiomemenulore": "<s1>Ändere das Biom deiner Insel."
-"bc_shopprice": "Preis": <price>"
+"bc_shopprice": "Preis: <price>"
 "bc_shopfree": "Kostenlos"
 "bc_notenoughmoney": "Du hast nicht genug Geld dafür."
   #
@@ -861,8 +861,8 @@
 "bc_islandhopperlimitinfo": "Du kannst nur <size> Trichter setzen."
 "bc_islandhomeshop": "Erlaubt dir insgesamt<nl><size> Homes zu setzen."
 "bc_islandupgrades": "Insel Erweiterungen"
-"upgradeavailable": "<s1>Die Insel ist nicht vollständig erweitert, erweitere die Insel, um auch hier bauen zu können": <p1>/island upgrades"
-"entitylimitreached": "<s1>Du hast die Grenze für aktive Wesen erreicht, erweitere deine Grenze mit": <p1>/island upgrades"
+"upgradeavailable": "<s1>Die Insel ist nicht vollständig erweitert, erweitere die Insel, um auch hier bauen zu können: <p1>/island upgrades"
+"entitylimitreached": "<s1>Du hast die Grenze für aktive Wesen erreicht, erweitere deine Grenze mit: <p1>/island upgrades"
 
   #
   # > Island item binding
@@ -883,11 +883,11 @@
 "storage_notenoughinvspace": "Du hast nicht genug Platz im Inventar."
 "storage_storeintitle": "Einlagern"
 "storage_storeinmenu": "<s1>Lagere alles von diesem<nl><s1>Item im Lagersystem ein."
-"storage_getoutmenu": "<s1>Erhalte <max> aus diesem<nl><s1>Lagersystem.<nl><guispacer><nl><s1>Vorrat": <supply>"
+"storage_getoutmenu": "<s1>Erhalte <max> aus diesem<nl><s1>Lagersystem.<nl><guispacer><nl><s1>Vorrat: <supply>"
   
   #
   # > Recovery menu
-"recovery_guiitemlore": "<p2>Wiederherstellung<nl><s1>Platziere diese Kiste,<nl><s1>um dein Inventar zu erhalten.<nl><guispacer><nl><s1>Preis": <price><nl><guispacer><nl><s1>Datum": <date>"
+"recovery_guiitemlore": "<p2>Wiederherstellung<nl><s1>Platziere diese Kiste,<nl><s1>um dein Inventar zu erhalten.<nl><guispacer><nl><s1>Preis: <price><nl><guispacer><nl><s1>Datum: <date>"
 "recovery_header": "<l>Wiederherstellung"
 "recovery_guiitemname": "&rErhalte dein Inventar zurück"
 "recovery_notenoughspace": "<p1>Es sollte kein Block über der Wiederherstellungskiste sein."
@@ -908,12 +908,12 @@
 "store_sellmodeitem": "&rVerkaufen"
 "store_buymodeitemlore": "<s1>Klicke hier, um<nl><s1>Gegenstände zu<nl><s1>kaufen."
 "store_sellmodeitemlore": "<s1>Klicke hier, um<nl><s1>Gegenstände zu<nl><s1>verkaufen."
-"store_currentmodebuy": "Aktuell": Kaufen"
-"store_currentmodesell": "Aktuell": Verkaufen"
+"store_currentmodebuy": "Aktuell: Kaufen"
+"store_currentmodesell": "Aktuell: Verkaufen"
 "store_cantbuy": "<s1>Dieser Gegenstand ist<nl><s1>nicht kaufbar."
 "store_cantsell": "<s1>Dieser Gegenstand ist<nl><s1>nicht verkaufbar."
-"store_itemselllore": "<s1>Ertrag": <amount> <currency><nl><s1>Klicke hier, um diesen<nl><s1>Gegenstand zu verkaufen."
-"store_itembuylore": "<s1>Preis": <amount> <currency><nl><s1>Klicke hier, um diesen<nl><s1>Gegenstand zu kaufen."
+"store_itemselllore": "<s1>Ertrag: <amount> <currency><nl><s1>Klicke hier, um diesen<nl><s1>Gegenstand zu verkaufen."
+"store_itembuylore": "<s1>Preis: <amount> <currency><nl><s1>Klicke hier, um diesen<nl><s1>Gegenstand zu kaufen."
 "store_soldxitems": "Du hast <ph><ph> für <ph> verkauft."
 "store_boughtxitems": "Du hast <ph><ph> für <ph> gekauft."
 "store_notenoughitem": "Du hast nicht genug <ph>."
@@ -926,7 +926,7 @@
 "lootbox_reward": "<s1>Belohnung:<p1>"
 "lootbox_gotalootbox": "<s1>Du hast eine Lootbox erhalten."
 "lootbox_gotalootboxvar": "<s1>Du hast eine Lootbox erhalten. Öffne sie mit /island loot"
-"lootbox_tierguiitemlore": "<s1><l>Güteklasse": <tier><nl><guispacer><nl><s1>Du kannst noch<nl><p1><amount> <s1>öffnen."
+"lootbox_tierguiitemlore": "<s1><l>Güteklasse: <tier><nl><guispacer><nl><s1>Du kannst noch<nl><p1><amount> <s1>öffnen."
 "lootbox_clicktoopen": "<s1>Klicke <p1>hier<s1>,<nl><s1>um zu öffnen."
 
   #
@@ -944,7 +944,7 @@
 "antiafk_showactivity": "<s1>Aktivität wird nun angezeigt."
 "antiafk_hideactivity": "<s1>Aktivität wird nun ausgeblendet."
 "antiafk_kickreason": "<s1>Du hast dich zu lange nicht bewegt. Bewege dich mehr, damit deine Aktivität steigt. Du kannst deine Aktivität mit /toggleactivity anzeigen lassen."
-"antiafk_actionbar": "<s1>Aktivität": <activity>"
+"antiafk_actionbar": "<s1>Aktivität: <activity>"
 
   #
   # > Deathback
@@ -968,7 +968,7 @@
 "vr_getvotelinklore": "<s1>Klicke hier, um<nl><s1>deinen Votelink zu<nl><s1>erhalten, mit dem du<nl><s1>voten kannst."
 "vr_claimrewardtitle": "&rBelohnungen abholen"
 "vr_claimrewardlore": "<s1>Klicke hier, um deine<nl><s1>Votebelohnungen<nl><s1>abzuholen."
-"vr_votelinkmessage": "Hier ist dein Votelink": <votelink>."
+"vr_votelinkmessage": "Hier ist dein Votelink: <votelink>."
 "vr_votelinktext": "&b&oHier klicken"
 "vr_votelinkhovertext": "<s1>Klicke hier, um<nl><s1>die Voteseite<nl><s1>zu öffnen."
 "vr_recievedrewards": "<s1>Du hast <amount> Belohnungen abgeholt."
@@ -985,10 +985,10 @@
 "parkour_toplist_item": "&rBestenliste"
 "parkour_personalbest": "Du hast deine Bestzeit verbessert."
 "parkour_nopersonalbest": "Du hast deine Bestzeit nicht geschlagen."
-"parkour_personalbesttime": "Bestzeit": <p2><l><time>"
-"parkour_thisruntime": "Dieser Lauf": <p2><l><time>"
-"parkour_pastpersonalbest": "Bisherige Bestzeit": <p2><l><time>"
-"parkour_currentrank": "Aktueller Rang": <rank>"
+"parkour_personalbesttime": "Bestzeit: <p2><l><time>"
+"parkour_thisruntime": "Dieser Lauf: <p2><l><time>"
+"parkour_pastpersonalbest": "Bisherige Bestzeit: <p2><l><time>"
+"parkour_currentrank": "Aktueller Rang: <rank>"
 "parkour_checkpointreached": Checkpoint erreicht
 "parkour_checkpointinvalid": Ungültiger Checkpoint
 "parkour_finishinvalid": Ungültiges Ziel
@@ -997,17 +997,17 @@
 "parkour_itemexitname": "&rBeenden"
 "parkour_parcourunloaded": Der Parkour wurde entladen. Danke fürs spielen.
 "parkour_finishmsg": Glückwunsch! Du hast das Ziel erreicht.
-"parkour_yourtime": "Deine Zeit": <p2><l><time>"
+"parkour_yourtime": "Deine Zeit: <p2><l><time>"
 "parkour_menucheckpointitemname": "&rCheckpoint Platte"
 "parkour_menufinishitemname": "&rZiel Platte"
 "parkour_menuremoveblockname": "&rEntferne diesen Parkour Block"
-"parkour_menucheckpointitemlore": "<s1>Erhalte eine Checkpoint<nl><s1>Platte zum platzieren.<nl><nl><s1>Funktioniert nur<nl><s1>für diesen Parkour.
-"parkour_menufinishitemlore": "<s1>Erhalte eine Ziel<nl><s1>Platte zum platzieren.<nl><nl><s1>Funktioniert nur<nl><s1>für diesen Parkour.
-"parkour_menuremoveblocklore": "<s1>Erhalte den Block<nl><s1>als Item zurück.
+"parkour_menucheckpointitemlore": "<s1>Erhalte eine Checkpoint<nl><s1>Platte zum platzieren.<nl><nl><s1>Funktioniert nur<nl><s1>für diesen Parkour."
+"parkour_menufinishitemlore": "<s1>Erhalte eine Ziel<nl><s1>Platte zum platzieren.<nl><nl><s1>Funktioniert nur<nl><s1>für diesen Parkour."
+"parkour_menuremoveblocklore": "<s1>Erhalte den Block<nl><s1>als Item zurück."
 "parkour_noinventoryinparcour": Du kannst während dem Parkour keine Inventare öffnen.
-"parkour_parcouritemcheckpoint": "&r<p2>Parkour "Checkpoint"
-"parkour_parcouritemfinish": "&r<p2>Parkour "Ziel"
-"parkour_parcouritemstart": "&r<p2>Parkour "Start"
+"parkour_parcouritemcheckpoint": "&r<p2>Parkour Checkpoint"
+"parkour_parcouritemfinish": "&r<p2>Parkour Ziel"
+"parkour_parcouritemstart": "&r<p2>Parkour Start"
 
   #
   # > Custom Stands addon
@@ -1060,7 +1060,7 @@
 "robot_design_name_1": "Schaf"
 "robot_design_lore_1": "<s1>Roboter im<nl><s1>Schaf Stil."
 "robot_design_name_2": "Golem"
-"robot_design_lore_2": "<s1>Roboter im<nl><s1>Schaf Stil.
+"robot_design_lore_2": "<s1>Roboter im<nl><s1>Schaf Stil."
 "robot_design_name_3": "Schwein"
 "robot_design_lore_3": "<s1>Roboter im<nl><s1>Schwein Stil."
 "robot_design_name_4": "Schleim"
@@ -1110,7 +1110,7 @@
 "robot_robotstatusoff": "&rRoboter <s1>[<p1><l>AUS&r<s1>]"
 "robot_clicktotogglesstatus": "<s1>Klicke, um den<nl><s1>Roboter zwischen<nl><s1>an und aus umzustellen."
 "robot_stats": "&rStatistik"
-"robot_blocksbroken": "<s1>Blöcke abgebaut": <p1><blocks>"
+"robot_blocksbroken": "<s1>Blöcke abgebaut: <p1><blocks>"
 "robot_robotjobguiname": "<l>Roboter Berufe"
 "robot_robotdesignguiname": "<l>Roboter Designs"
 "robot_robotguiname": "<l>Roboter Menü"
@@ -1139,10 +1139,10 @@
 "challenge_xpionlywclvl": "&rSchließe||&rHerausforderungen||&rab, um dieses Level||&rzu erreichen."
 "challenge_repeatable": "<s1>Wiederholbar [<current>/<maxrepeat>]"
 "challenge_notrepeatable": "<s1>Nicht wiederholbar."
-"challenge_xp": "<s1>XP": <amount>"
+"challenge_xp": "<s1>XP: <amount>"
 "challenge_statssitelore": "<s1>Erhalte deine aktuelle<nl><s1>Herausforderungsstatistik."
 "challenge_repeatbonustitle": "&rWiederholungsbonus"
-"challenge_repeatbonuslore": "&r<s1>Aktueller Bonus": <bonus>%<nl><s1>Bonusfortschritt": <progress>%"
+"challenge_repeatbonuslore": "&r<s1>Aktueller Bonus: <bonus>%<nl><s1>Bonusfortschritt: <progress>%"
 
   #
   # > Challenge names
@@ -1238,4 +1238,3 @@
 "perkshop_title": "Perk Shop"
 
 "perkshop_lore": "<s1>Kaufe temporäre Effekte."
-
