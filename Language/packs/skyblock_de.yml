@@ -505,8 +505,8 @@
   # > Success message": <newleader>(placeholder) is now the new island owner (leader), <oldleader> (placeholder) is now a member of the island.
 "isadmin_newleader": "<newleader> ist nun der neue Leiter, <oldleader> ist nun Mitglied der Insel."
   #
-  # > Warn message": Do you want to change the island owner (leader) from <oldleader> (placeholder) to <newleader> (placeholder)?
-"isadmin_changeleader": ""Möchtest du den Inselleiter von <oldleader> zu <newleader> wechseln?"
+  # > Warn message": Do you want to change the island owner (leader) from <oldleader> (placeholder) to <newleader> (placeholder)?"
+"isadmin_changeleader": "Möchtest du den Inselleiter von <oldleader> zu <newleader> wechseln?"
   #
   # > Success message": The island level is now calculated.
 "isadmin_fcalc": "Das Insellevel wird nun berechnet."
