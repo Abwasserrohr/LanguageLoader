@@ -104,7 +104,7 @@
 "forward": "&r&fWeiter"
 "back": "&r&fZurück"
 "forwardItemDesc": "&7Zeigt die nächste\n&7Seite an."
-"backItemDescbackItemDesc": "&7Zeigt die vorherige\n&7Seite an."
+"backItemDesc": "&7Zeigt die vorherige\n&7Seite an."
 "viewsItemName": "&r&fAufrufe"
 "viewsItemDesc": "&7Sortiert die Liste\n&7nach Aufrufen."
 "ratingItemName": "&r&fBewertung"
