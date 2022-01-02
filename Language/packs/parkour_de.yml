@@ -95,6 +95,7 @@
 "MEDIUMName": "Mittel"
 "HARDName": "Schwer"
 "EXPERTName": "Experte"
+"ALLName": "Alle"
 "backToDiffSelection": "&r&7Zurück zur Auswahl\n&r&7des Schwierigkeitsgrades."
 "mapItemLore": "&7Visits: &6<visits>\n&7Rating: &6<rating>\n&7Created: &6<created>"
 "ascendingItemName": "&f&lAufsteigend"
