@@ -31,7 +31,7 @@
 "onlyNotPublishedParkoursCanGoBack": "Nur nicht veröffentlichte Parkours können zurück in den Baumodus geändert werden."
 "couldntFindThisParkour": "Konnte diesen Parkour nicht finden."
 "parkourInfoHeader": "----- Parkour Info -----"
-"parkourname": "Parkourname: <name>"
+"parkournamename": "Parkourname: <name>"
 "parkourid": "Parkour ID: <id>"
 "parkourcreator": "Ersteller: <name>"
 "parkourrating": "Rating: <rating>"
