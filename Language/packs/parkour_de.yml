@@ -124,3 +124,6 @@
 "textClickable": "&bAnklickbarer Text&7\n&7Der Text in dieser\n&7Nachricht ist anklickbar."
 "spawnlocation": "Parkour Spawn setzen"
 "setspawnlocation": "&7Klicke hier, um den Spawn\n&7des Parkours zu setzen."
+"SendRequestTo": "Anfrage an <player> senden"
+"thisPlayerIsLeading": "<leader> leitet die Gruppe von <member>."
+"clickHereToRequest": "Klicke hier, um eine Anfrage\nan <player> zu senden."
