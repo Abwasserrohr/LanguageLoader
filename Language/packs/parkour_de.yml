@@ -166,3 +166,4 @@
 "youGotReward": "Du hast <currencyAmount> %{parkour/currencyName}% und <xpAmount> %{parkour/xpName}% erhalten."
 "notEnoughCurrencyYouNeedMore": "&7Nicht genug %{parkour/currencyNamePlural}%, du brauchst noch &6&l<needed>&7."
 "parkourDiffForced": "&7Die Schwierigkeit für diese Map wird jetzt erzwungen."
+"parkourDiffNoLongerForced": "&7Die Schwierigkeit für diese Map wird nicht länger erwzungen."
