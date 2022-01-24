@@ -1,3 +1,5 @@
+"currencyName": "Kristalle"
+"xpName": "Erfahrung"
 "startblock": "Start Block"
 "endblock": "Ende Block"
 "checkpointblock": "Checkpoint Block"
@@ -157,3 +159,4 @@
 "youKickedPlayer": "Du hast <player> gekickt."
 "playerIsAlreadyInYourParty": "<player> ist bereits in deiner Party."
 "leaderSwichtedMaps": "Der Party Leader hat die Karte gewechselt."
+"youGotReward": "Du hast <currencyAmount> %{parkour/currencyName}% und <xpAmount> %{parkour/xpName}% erhalten."
