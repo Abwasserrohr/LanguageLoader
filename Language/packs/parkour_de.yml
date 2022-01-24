@@ -164,3 +164,4 @@
 "leaderSwichtedMaps": "Der Party Leader hat die Karte gewechselt."
 "youGotRewards": "Du hast <currencyAmount> %{parkour/currencyNamePlural}% und <xpAmount> %{parkour/xpNamePlural}% erhalten."
 "youGotReward": "Du hast <currencyAmount> %{parkour/currencyName}% und <xpAmount> %{parkour/xpName}% erhalten."
+"notEnoughCurrencyYouNeedMore": "&7Du hast nicht genug %{parkour/currencyNamePlural}%, du brauchst noch &6&l<needed>&7."
