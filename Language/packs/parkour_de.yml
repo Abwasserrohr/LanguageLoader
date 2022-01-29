@@ -172,3 +172,4 @@
 "enableSpectatorItemName": "Zuschauermodus aktivieren"
 "disableSpectatorItemName": "Zuschauermodus verlassen"
 "couldNotFindRun": "Konnte diesen Run nicht finden."
+"reportedUser": "Du hast den Run von <reportedUser> gemeldet."
