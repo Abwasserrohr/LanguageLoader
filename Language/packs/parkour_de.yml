@@ -181,3 +181,7 @@
 "reportUserBtn": "<reportedUser> melden"
 "reportUserBtnHover": "Klicke hier, um den Run\nvon <reportedUser> zu melden."
 "youAlreadyReported": "Du hast diesen Run schon gemeldet."
+"myMapsMenuName": "Meine Karten"
+"myRunsMenuName": "Meine Runs"
+"playerMapsMenuName": "Karten von <player>"
+"playerRunsMenuName": "Runs von <player>"
