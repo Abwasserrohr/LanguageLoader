@@ -172,7 +172,7 @@
 "enableSpectatorItemName": "Zuschauermodus aktivieren"
 "disableSpectatorItemName": "Zuschauermodus verlassen"
 "couldNotFindRun": "Konnte diesen Run nicht finden."
-"reportedUser": "Du hast den Run von <reportedUser> gemeldet."
+"reportedRun": "Du hast den Run von <reportedUser> gemeldet."
 "reallyReportThisPlayer": "Willst du <reportedUser> wirklich melden?"
 "reportUserBtn": "<reportedUser> melden"
 "reportUserBtnHover": "Klicke hier, um den Run\nvon <reportedUser> zu melden."
