@@ -205,6 +205,6 @@
 "actionCardInfoSETTEMPORARYBLOCK": "Klicke mit der Aktionskarte\nauf einen Block, während\ndu schleichst, um den\nBlock in der Karte zu\nspeichern."
 "actionCardInfoTextSETTEMPORARYBLOCK": "Ein Block, der nach der\nDauer verschwindet.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoSETTEMPORARYBLOCK}%"
 "SETBLOCK": "Block"
-"actionLoreSETBLOCK": "Ort: <location>\n"
+"actionLoreSETBLOCK": "Ort: <location>"
 "actionCardInfoSETBLOCK": "Klicke mit der Aktionskarte\nauf einen Block, während\ndu schleichst, um den\nBlock in der Karte zu\nspeichern."
 "actionCardInfoTextSETBLOCK": "Ein Block, der nach der an\neinem Ort platziert wird.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoSETBLOCK}%"
