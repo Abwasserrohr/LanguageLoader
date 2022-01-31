@@ -198,7 +198,7 @@
 "blockHasBeenSavedIntoAction": "Der Block wurde in der Aktion gespeichert."
 "putActionItemIntoChest": "Lege das Aktionsitem in eine Truhe."
 "actionNoBlockSelected": "Kein Block gesetzt"
-"actionCardInfoSETTEMPORARYBLOCK": "Klicke mit der Aktionskarte\nauf einen Block, während\ndu schleichst, um den\nBlock in der Karte zu speichern."
+"actionCardInfoSETTEMPORARYBLOCK": "Klicke mit der Aktionskarte\nauf einen Block, während\ndu schleichst, um den\nBlock in der Karte zu\nspeichern."
 "actionSetTemporaryBlockLore": "Ort: <location>\nDauer: <ticks> Ticks\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick"
 "actionCard": "Aktionskarte:"
 "SETTEMPORARYBLOCK": "Temporärer Block"
