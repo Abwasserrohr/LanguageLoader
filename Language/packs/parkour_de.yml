@@ -216,3 +216,8 @@
 "actionCardBlockingInfo": "Wenn die Aktionskarte blockierend\nist, wird diese den Aktions-\nblock anhalten, bis die Aktion\nabgeschlossen ist."
 "actionCardDisabled": "Deaktiviert"
 "actionCardEnabled": "Aktiviert"
+"VELOCITY": "Schwung"
+"actionCardInfoVELOCITY": "Klicke mit der Aktionskarte,\num das Menü zu öffnen.\nGibt dem Spieler Schwung\nzu den vorher definierten\nKoordinaten."
+"actionCardInfoTextVELOCITY": "Gibt einem Spieler Schwung.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoVELOCITY}%"
+"velocityCoordinateChangeInfo": "Setze die Stärke des\nSchwungs für diese Achse.\n%{parkour/loreLine}%\nStärke ▲: &6&lLinksklick\nStärke ▼: &6&lRechtsklick"
+"velocityCoordinate": "<axis> Koordinate"
