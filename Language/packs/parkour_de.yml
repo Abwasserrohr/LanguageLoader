@@ -212,3 +212,7 @@
 "actionLoreWAIT": "Dauer: <ticks> Ticks\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick"
 "actionCardInfoWAIT": "Klicke mit der Aktionskarte,\num das Menü zu öffnen.\nLässt den Aktionsblock um die\ngewählten Ticks warten."
 "actionCardInfoTextWAIT": "Lässt den Aktionsblock warten.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoWAIT}%"
+"actionCardBlocking": "Blockierend"
+"actionCardBlockingInfo": "Wenn die Aktionskarte blockierend\nist, wird diese den Aktions-\nblock anhalten, bis die Aktion\nabgeschlossen ist."
+"actionCardDisabled": "Deaktiviert"
+"actionCardEnabled": "Aktiviert"
