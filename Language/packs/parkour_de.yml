@@ -223,7 +223,7 @@
 "velocityCoordinate": "<axis> Koordinate"
 "PLATFORM": "Plattform"
 "actionCardInfoPLATFORM": "Erschafft eine bewegliche\nPlattform, auf der\nsich Spieler bewegen können."
-"actionCardInfoTextPLATFORM": "Schleichen + Rechtsklick,\num einen Keyframe hinzuzufügen.\n%{parkour/loreLine}%\nSchleichen + Linksklick,\num den Plattformblock\nzu ändern.\n%{parkour/loreLine}%\nKlicke normal ohne\nschleichen, um das Menü zu öffnen.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoPLATFORM}%"
+"actionCardInfoTextPLATFORM": "&6Schleichen + Rechtsklick:\nKeyframe hinzuzufügen\n%{parkour/loreLine}%\n&6Schleichen + Linksklick:\nPlattformblock anpasssen\n%{parkour/loreLine}%\n&6Normaler Klick\nMenü öffnen\n%{parkour/loreLine}%\n%{parkour/actionCardInfoPLATFORM}%"
 "PlatformsMaximumLocationsReached": "Du hast die maximale Anzahl an Keyframes erreicht."
 "PlatformsLocationAdded": "Ein Keyframe wurde hinzugefügt."
 "PlatformKeyframe": "Keyframe"
