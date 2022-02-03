@@ -244,4 +244,4 @@
 "PlatformBezierModeLore": "Verhalten:\n&6&l<mode>\n%{parkour/loreLine}%\nEntscheidet, ob die Platt-\n form einen Rundkurs\nmacht oder nicht."
 "PlatformTypeChanged": "Plattform Block geändert."
 "PlatformLoopModeName": "Schleife"
-"PlatformLoopModeLore": "<mode>\n%{parkour/loreLine}%\nIst die Schleife aktiv,\nwird die Plattform ihren\nPfad unendlich lange verfolgen."
+"PlatformLoopModeLore": "<mode>\n%{parkour/loreLine}%\nIst die Schleife aktiv, wird\ndie Plattform ihren Pfad\nunendlich lange verfolgen."
