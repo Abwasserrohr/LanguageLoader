@@ -272,3 +272,4 @@
 "actionCardInfoTIME": "Ändert die Zeit."
 "actionCardInfoTextTIME": "%{parkour/actionCardInfoTIME}%"
 "actionLoreTIME": "Uhrzeit: &6&l<time>\n%{parkour/loreLine}%\nUhrzeit ▲: &6&lLinksklick\nUhrzeit ▼: &6&lRechtsklick"
+"BuildMenuName": "Baumenü"
