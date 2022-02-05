@@ -255,4 +255,4 @@
 "POTION": "Verzauberung"
 "actionCardInfoPOTION": "Gibt dem Spieler eine,\nVerzauberung, sofern keine\nVerzauberung gewählt ist,\nwerden alle vom Spieler\nwieder entfernt."
 "actionCardInfoTextPOTION": "%{parkour/actionCardInfoPOTION}%"
-"PotionLore": "Dauer: &6&l<duration>\nStärke: &6&l<strength>\n%{parkour/loreLine}%\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick\n%{parkour/loreLine}%\nStärke ▲: &6&lShift + Linksklick\nStärke ▼: &6&lShift + Rechtsklick"
+"PotionLore": "Dauer: &6&l<duration>\nStärke: &6&l<strength>\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick\n%{parkour/loreLine}%\nStärke ▲: &6&lShift + Linksklick\nStärke ▼: &6&lShift + Rechtsklick"
