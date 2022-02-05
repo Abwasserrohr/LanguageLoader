@@ -253,6 +253,6 @@
 "actionCardInfoTextREPEAT": "%{parkour/actionCardInfoSTOP}%"
 "PotionSelectionLore": "Klicke auf den Trank,\num diesen für diese\nAktionskarte zu aktivieren."
 "POTION": "Verzauberung"
-"actionCardInfoPOTION": "Gibt dem Spieler eine,\nVerzauberung, sofern keine\nVerzauberung gewählt ist,\nwerden alle vom Spieler\nwieder entfernt."
+"actionCardInfoPOTION": "Gibt dem Spieler eine,\nVerzauberung, sofern keine\nVerzauberung gewählt ist,\nwerden alle vom Spieler\nwieder entfernt. Wenn die\nStärke auf 0 gesetzt ist,\nwird nur der definierte\nTrank wieder entfernt."
 "actionCardInfoTextPOTION": "%{parkour/actionCardInfoPOTION}%"
 "PotionLore": "Dauer: &6&l<duration> Sekunden\nStärke: &6&l<strength>\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick\n%{parkour/loreLine}%\nStärke ▲: &6&lShift + Linksklick\nStärke ▼: &6&lShift + Rechtsklick"
