@@ -295,3 +295,8 @@
 "ActionCardShortDescSTOP": "Stoppt den Aktionsblock"
 "ActionCardShortDescWAIT": "Wartet einen Moment"
 "ActionCardShortDescPLATFORM": "Startet eine Plattform"
+"ToggleBetweenParkourModes": "Wechsle den Modus des Parkours\nin den Spiel- oder Baumodus."
+"SetNameItemName": "Parkourname wählen"
+"SetNameItemLore": "Gib deinem Parkour einen\nNamen, klicke dazu hier."
+"SetNameSignMenu1": "Wähle einen"
+"SetNameSignMenu2": "Parkournamen..."
