@@ -54,8 +54,7 @@
 "canOnlyRateInPlayMode": "Der Parkour kann erst im Spielmodus bewertet werden."
 "canOnlyRemoveInBuildMode": "Spieler können nur im Baumodus entfernt werden."
 "parkourSpawnHasBeenSet": "Der Parkour Spawn wurde gesetzt."
-"thisFunctionOnlyInBuildMode": "Diese Funktion ist nur im Baumodus verfüg
-."
+"thisFunctionOnlyInBuildMode": "Diese Funktion ist nur im Baumodus verfügbar."
 "settingsHeader": "----- Einstellungen -----"
 "sideBar": "Seitenleiste"
 "bossBar": "Bossleiste"
