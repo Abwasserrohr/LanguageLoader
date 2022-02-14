@@ -332,3 +332,4 @@
 "actionCardInfoTextSHULKERTRIGGER": "Öffnet eine Shulkerbox.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoSHULKERTRIGGER}%"
 "ActionCardShortDescSHULKERTRIGGER": "Öffnet eine Shulkerbox"
 "ShulkerHasBeenSavedInCard": "Der Ort dieser Shulkerbox wurde gespeichert."
+"sneakToToggle": "Schleiche, um Türen umzustellen."
