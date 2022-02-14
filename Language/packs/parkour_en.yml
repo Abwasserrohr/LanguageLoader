@@ -330,4 +330,5 @@
 "actionLoreSHULKERTRIGGER": "Dauer: <ticks> Ticks\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick"
 "actionCardInfoSHULKERTRIGGER": "Klicke mit der Aktionskarte,\num das Menü zu öffnen.\nSchleiche und klicke auf\neine Shulkerbox, um diese\nauszuwählen.\nLässt eine Shulkerbox für\ndie gewählten Ticks geöffnet."
 "actionCardInfoTextSHULKERTRIGGER": "Öffnet eine Shulkerbox.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoSHULKERTRIGGER}%"
+"ActionCardShortDescSHULKERTRIGGER": "Öffnet eine Shulkerbox"
 "ShulkerHasBeenSavedInCard": "Der Ort dieser Shulkerbox wurde gespeichert."
