@@ -326,3 +326,7 @@
 "LoreFortopListHolograms": "Die Toplisten\nHologramme werden\nin den Karten gezeigt.\n%{parkour/loreLine}%\n%{parkour/clickToToggleBar}%"
 "LoreForRatingSuggestion": "Schlage am Ende von\nKarten vor, diese zu\nbewerten.\n%{parkour/loreLine}%\n%{parkour/clickToToggleBar}%"
 "LoreForMoreGuiData": "Lade mehr Daten in\nder Kartenauswahl im\nKompass, die Anzeige\nist dadurch langsamer.\n%{parkour/loreLine}%\n%{parkour/clickToToggleBar}%"
+"SHULKERTRIGGER": "Shulker Auslösen"
+"actionLoreSHULKERTRIGGER": "Dauer: <ticks> Ticks\n%{parkour/loreLine}%\nDauer ▲: &6&lLinksklick\nDauer ▼: &6&lRechtsklick"
+"actionCardInfoSHULKERTRIGGER": "Klicke mit der Aktionskarte,\num das Menü zu öffnen.\nSchleiche und klicke auf\neine Shulkerbox, um diese\nauszuwählen.\nLässt eine Shulkerbox für\ndie gewählten Ticks geöffnet."
+"actionCardInfoTextSHULKERTRIGGER": "Öffnet eine Shulkerbox.\n%{parkour/loreLine}%\n%{parkour/actionCardInfoSHULKERTRIGGER}%"
