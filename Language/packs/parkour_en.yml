@@ -333,3 +333,4 @@
 "ActionCardShortDescSHULKERTRIGGER": "Öffnet eine Shulkerbox"
 "ShulkerHasBeenSavedInCard": "Der Ort dieser Shulkerbox wurde gespeichert."
 "sneakToToggle": "Schleiche, um Türen umzustellen."
+"mapItemRunsLore": "&7von <builder>\n%{parkour/loreLine}%\n&7Deine Zeit: &6<time>\n&7Gelaufen am: &6<date>"
