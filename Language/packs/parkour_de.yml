@@ -335,3 +335,5 @@
 "sneakToToggle": "Schleiche, um Türen umzustellen."
 "mapItemRunsLore": "&7von <builder>\n%{parkour/loreLine}%\n&7Deine Zeit: &6<time>\n&7Gelaufen am: &6<date>"
 "DatePattern": "dd.MM.yyyy"
+"LoreForAutoSpectateAfterRun": "Automatisch in den\nZuschauermodus wechseln\nwenn der Run zuende ist.\n%{parkour/loreLine}%\n%{parkour/clickToToggleBar}%"
+"AutoSpectateAfterRun": "Automatischer Zuschauermodus"
