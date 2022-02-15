@@ -306,7 +306,7 @@
 "NoLongerAskingYou": "Du wirst nicht länger danach gefragt."
 "RatingSuggestion": "Kartenbewertungen"
 "SideBarNextStep": "Nächster Schritt:"
-"YouRatedTheMap": "Du hast diese Karte bewertet."
+"YouRatedTheMap": "Du hast <mapName> bewertet."
 "SpawnHasToBeAir": "Der Spawn muss an einem freien Ort gesetzt werden."
 "PlayerPublishedNewParkour": "<player> hat einen neuen Parkour veröffentlicht!"
 "VisitNamedMap": "<mapName> spielen"
