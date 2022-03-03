@@ -1,0 +1,7 @@
+"HoverTeleport": "&6&l<name>\n&7Teleports you to\n&7the home \"<name>\"."
+"YourHomes": "&7Your homes:"
+"NoHomesSaved": "&7You don't have any homes! Create one: &6/sethome <name>"
+"couldNotFindHome": "&7You don't have any home named &6<name>&7."
+"deletedHome": "&6<name>&7 has been deleted."
+"HomeSaved": "&6<name>&7 has been saved as home."
+"ErrorWhileSaving": "&7A error occured, please contact &6/hilfe"
