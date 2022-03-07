@@ -1,3 +1,6 @@
 "BeneficiaryTown": "Beneficiary Town: <town>"
 "BoughtBonusChunks": "You bought <amount> bonus chunks."
 "BoughtBonusChunk": "You bought one bonus chunk."
+"BonusChunkCommand1": "Buy bonus chunk: &6/bonuschunk <Town> [<Amount>]"
+"BonusChunkCommand2": "Price: &6&l1 &7%{money/eventCurrencyName}%"
+"CouldNotFindTown": "&7Cloudn't find a town named &6<town> &7."
