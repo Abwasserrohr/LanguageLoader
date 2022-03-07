@@ -8,4 +8,4 @@
 "eventCurrencyNamePlural": "Eventpunkte"
 "eventCurrencyNameShort": "EP"
 "notEnoughEventCurrency": "Du hast nicht genug %{money/eventCurrencyName}%."
-"notEnoughCurrency": "Du hast nicht genug %{money/currencyName}%."
+"notEnoughCurrency": "Du hast nicht genug %{money/eventCurrencyNamePlural}%."
