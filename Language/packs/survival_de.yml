@@ -2,5 +2,5 @@
 "BoughtBonusChunks": "Du hast <amount> Bonuschunks gekauft."
 "BoughtBonusChunk": "Du hast einen Bonuschunk gekauft."
 "BonusChunkCommand1": "Bonuschunk kaufen: &6/bonuschunk <Stadtname> [<Menge>]"
-"BonusChunkCommand2": "Preis: &6&l1 &7%{money/eventCurrencyName}%"
+"BonusChunkCommand2": "Preis: &6&l1 &7Eventpunkt"
 "CouldNotFindTown": "&7Die Stadt &6<town> &7konnte nicht gefunden werden."
