@@ -2,5 +2,5 @@
 "BoughtBonusChunks": "You bought <amount> bonus chunks."
 "BoughtBonusChunk": "You bought one bonus chunk."
 "BonusChunkCommand1": "Buy bonus chunk: &6/bonuschunk <town> [<amount>]"
-"BonusChunkCommand2": "Price: &6&l1&7 %{money/eventCurrencyName}%"
+"BonusChunkCommand2": "Price: &6&l1&7 Event Points"
 "CouldNotFindTown": "&7Couldn't find a town named &6<town>&7."
