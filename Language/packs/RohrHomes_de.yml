@@ -7,3 +7,4 @@
 "ErrorWhileSaving": "&7Ein Fehler ist aufgetreten, kontaktiere &6/hilfe"
 "PlayersHomes": "Homes von &6<name>&7:"
 "ProtectedArea": "Du kannst in diesem gesicherten Bereich kein Home erstellen."
+"DeleteHomeFirst": "&6<name> &7gibt es schon, lösche es zuerst mit &6/delhome <name>&7."
