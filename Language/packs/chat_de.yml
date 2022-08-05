@@ -5,6 +5,7 @@
 "prefixHover&6[SV-A]&r": "&6&lSurvival Admin\n&7Leitet den Survival Spielmodus"
 "prefixHover&6[FB-A]&r": "&6&lFreebuild Admin\n&7Leitet den Freebuild Spielmodus"
 "prefixHover&b[B]": "&b&lBuilder\n&7Erbaut Gebäude für den Server"
+"prefixHover&b[B][D]": "&b&lBuilder\n&7Erbaut Gebäude für den Server"
 "prefixHover&c[YT+]": "&c&lGeprüfte/r ProduzentIn von Inhalten\n&7Erstellt Inhalte auf mindestens\n&7einer sozialen Plattform über\n&7den Server."
 "prefixHover&c[YT]": "&c&lProduzentIn von Inhalten\n&7Erstellt Inhalte auf mindestens\n&7einer sozialen Plattform über\n&7den Server."
 "prefixHover&5[LIVE]": "&5&lStreamt gerade\n&7Schau dem Stream\n&7auf einer Streamingplattform zu."
