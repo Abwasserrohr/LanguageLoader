@@ -1,0 +1,7 @@
+"ItemStoreTitle": "Store"
+"ItemStoreLore": "&7Store everything of this\n&7item in the storage unit."
+"ItemGetLore": "&7Get <max> out of\n&7the storage unit.\n&7--------\n&7Supply: <supply>"
+"MenuTitle": "Storage unit"
+"OnlyBreakEmpty": "You can only break empty storage units."
+"NotEnoughInventorySpace": "There is not enough space in your inventory."
+"PrefixName": "Storage"
