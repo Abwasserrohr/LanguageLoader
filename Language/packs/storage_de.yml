@@ -1,0 +1,7 @@
+"ItemStoreTitle": "Einlagern"
+"ItemStoreLore": "&7Lagere alles von diesem\n&7Item im Lagersystem ein."
+"ItemGetLore": "&7Erhalte <max> aus diesem\n&7Lagersystemm.\n&7--------\n&7Vorrat: <supply>"
+"MenuTitle": "Lagersystem"
+"OnlyBreakEmpty": "Nur leere Lagersysteme können abgebaut werden."
+"NotEnoughInventorySpace": "Dein Inventar hat nicht genug Platz."
+"PrefixName": "Lagersystem"
