@@ -8,3 +8,4 @@
 "rewardSetToHP": "Your reward has been set to HP (Hive Power)."
 "hivehandleset": "Your Hive username has been set to @<handle>."
 "newEventHourStarted": "A new event hour has been started! You can reset it at any time using /eventhour."
+"eventHourEnded": "Your event hour ended! You reached <score> points."
