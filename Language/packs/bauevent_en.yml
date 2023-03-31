@@ -17,7 +17,7 @@
 "plot": "Plot"
 "teleport": "Teleport"
 "plotsLore": "&7Click here, to teleport\n&7to the plot &b<plotId>&7."
-"placeRedWoolWhereCenterOfPlotShouldBe": "Place the red wool where the center of your plot should be."
+"placeRedWoolWhereCenterOfPlotShouldBe": "Place the red wool where the center of your plot should be. Biome change: /rtp biome"
 "ifNoTeleportUseRtp": "If you have not been teleported or want to choose a different biome, use /rtp minecraft:biome."
 "worldBorderHasBeenSent": "Plot border enabled. To toggle: /toggleworldborder."
 "plotIsBeingPrepared": "Your plot is getting ready. This can take a few moments."
