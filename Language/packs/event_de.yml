@@ -7,5 +7,5 @@
 "rewardSetToEP": "Deine Belohnung wurde auf EP (Eventpunkte) gesetzt."
 "rewardSetToHP": "Deine Belohnung wurde auf HP (Hive Power) gesetzt."
 "hivehandleset": "Dein Hive-Benutzername wurde auf @<handle> eingestellt."
-"newEventHourStarted": "Eine neue Eventstsunde hat begonnen! Du kannst diese es jederzeit mit /eventstunde zurücksetzen."
+"newEventHourStarted": "Eine neue Eventstsunde hat begonnen! Du kannst diese jederzeit mit /eventstunde zurücksetzen."
 "eventHourEnded": "Deine Eventstunde ist vorbei! Du hast <score> Punkte erreicht."
