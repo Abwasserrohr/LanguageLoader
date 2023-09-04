@@ -4,3 +4,4 @@
 "BonusChunkCommand1": "Buy bonus chunk: &6/bonuschunk <town> [<amount>]"
 "BonusChunkCommand2": "Price: &6&l1&7 Event Point"
 "CouldNotFindTown": "&7Couldn't find a town named &6<town>&7."
+"storageUnit": "Storage"
