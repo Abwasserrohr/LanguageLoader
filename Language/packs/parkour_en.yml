@@ -337,3 +337,7 @@
 "DatePattern": "dd.MM.yyyy"
 "LoreForAutoSpectateAfterRun": "Automatisch in den\nZuschauermodus wechseln\nwenn der Run zuende ist.\n%{parkour/loreLine}%\n%{parkour/clickToToggleBar}%"
 "AutoSpectateAfterRun": "Automatischer Zuschauermodus"
+"coinblockplaced": "Münze platziert"
+"coinblockremoved": "Münze entfernt"
+"coinBlock": "Münze"
+"coinblockdesc": "&7Markiert eine Münze, die\n&7von Spielern im Parkour gesammelt\n&7werden können."
