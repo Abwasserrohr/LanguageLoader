@@ -341,3 +341,4 @@
 "coinblockremoved": "Münze entfernt"
 "coinBlock": "Münze"
 "coinblockdesc": "&7Markiert eine Münze, die\n&7von Spielern im Parkour gesammelt\n&7werden können."
+"setParkourSpawnFirst": "Setze zuerst den Spawn des Parkours: /parkour setspawn"
