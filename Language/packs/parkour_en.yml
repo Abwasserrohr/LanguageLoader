@@ -344,3 +344,7 @@
 "setParkourSpawnFirst": "Setze zuerst den Spawn des Parkours: /parkour setspawn"
 "coinGet": "Münze erhalten!"
 "coins": "Münzen"
+"anyPercentRun": "Any%"
+"100PercentRun": "100%"
+"anyPercentRunDesc": "Zeigt Speedruns von Spielern,\ndie das Ziel verfolgen, die\nMap so schnell wie möglich\nzu beenden, ohne dabei\nalle Münzen zu sammeln."
+"100PercentRunDesc": "Zeigt Speedruns von Spielern,\ndie das Ziel verfolgen, die\nMap vollständig zu meistern,\nindem sie alle Münzen\nsammeln und alle vorgegebenen\nAufgaben abschließen, um das Spiel\nzu 100% zu vervollständigen."
